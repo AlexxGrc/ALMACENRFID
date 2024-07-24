@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B794F0EA-CCB5-4923-82AC-F3B5D747A170}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ALMACENRFID</RootNamespace>
+    <AssemblyName>ALMACENRFID</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.0.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="RFIDReaderAPI, Version=4.38.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\RFIDReaderAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyHelper.cs" />
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\ReadParam.cs" />
+    <Compile Include="Enum\EMouseState.cs" />
+    <Compile Include="Enum\ESysButton.cs" />
+    <Compile Include="Helper\ConfigHelper.cs" />
+    <Compile Include="Helper\DrawHelper.cs" />
+    <Compile Include="Helper\LanguageHelper.cs" />
+    <Compile Include="Helper\MyXmlHelper.cs" />
+    <Compile Include="Helper\XmlHelper.cs" />
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyFormTemplet\CheckedComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\ImageButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\LxLedControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQTextBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQTextBoxEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\QQToolStripRenderer.cs" />
+    <Compile Include="MyFormTemplet\RoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\_360Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyFormTemplet\_360Form.Designer.cs">
+      <DependentUpon>_360Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\BaseOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\BaseOption.Designer.cs">
+      <DependentUpon>BaseOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\AddConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\AddConnect.Designer.cs">
+      <DependentUpon>AddConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\BaseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\BaseDialog.Designer.cs">
+      <DependentUpon>BaseDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\SearchResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\Dialog\SearchResult.Designer.cs">
+      <DependentUpon>SearchResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteEpc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteEpc.Designer.cs">
+      <DependentUpon>FunctionWriteEpc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteEpc_GB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteEpc_GB.Designer.cs">
+      <DependentUpon>FunctionWriteEpc_GB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteUserData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteUserData.Designer.cs">
+      <DependentUpon>FunctionWriteUserData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteUserData_GB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\FunctionForm\FunctionWriteUserData_GB.Designer.cs">
+      <DependentUpon>FunctionWriteUserData_GB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\ReadTag_Param.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\ReadTag_Param.Designer.cs">
+      <DependentUpon>ReadTag_Param.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\RFID_Option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\RFID_Option.Designer.cs">
+      <DependentUpon>RFID_Option.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\SearchDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\SearchDevice.Designer.cs">
+      <DependentUpon>SearchDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\TCP_Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\TCP_Server.Designer.cs">
+      <DependentUpon>TCP_Server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_Option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_Option.Designer.cs">
+      <DependentUpon>Tag_Option.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_Option6B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_Option6B.Designer.cs">
+      <DependentUpon>Tag_Option6B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_OptionGB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySingleForm\TestForm\Tag_OptionGB.Designer.cs">
+      <DependentUpon>Tag_OptionGB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingleMainForm.designer.cs">
+      <DependentUpon>SingleMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Win32\Consts.cs" />
+    <Compile Include="Win32\Enums.cs" />
+    <Compile Include="Win32\KeyHook.cs" />
+    <Compile Include="Win32\MouseEventExtArgs.cs" />
+    <Compile Include="Win32\MouseHook.cs" />
+    <Compile Include="Win32\NativeMethods.cs" />
+    <Compile Include="Win32\Structs.cs" />
+    <Compile Include="_RC.cs" />
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyFormTemplet\_360Form.resx">
+      <DependentUpon>_360Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\BaseOption.resx">
+      <DependentUpon>BaseOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\AddConnect.en.resx">
+      <DependentUpon>AddConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\AddConnect.resx">
+      <DependentUpon>AddConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\AddConnect.sq.resx">
+      <DependentUpon>AddConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\BaseDialog.resx">
+      <DependentUpon>BaseDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\SearchResult.en.resx">
+      <DependentUpon>SearchResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\Dialog\SearchResult.resx">
+      <DependentUpon>SearchResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteEpc.en.resx">
+      <DependentUpon>FunctionWriteEpc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteEpc.resx">
+      <DependentUpon>FunctionWriteEpc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteEpc_GB.en.resx">
+      <DependentUpon>FunctionWriteEpc_GB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteEpc_GB.resx">
+      <DependentUpon>FunctionWriteEpc_GB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteUserData.en.resx">
+      <DependentUpon>FunctionWriteUserData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteUserData.resx">
+      <DependentUpon>FunctionWriteUserData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteUserData_GB.en.resx">
+      <DependentUpon>FunctionWriteUserData_GB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\FunctionForm\FunctionWriteUserData_GB.resx">
+      <DependentUpon>FunctionWriteUserData_GB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\ReadTag_Param.en.resx">
+      <DependentUpon>ReadTag_Param.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\ReadTag_Param.resx">
+      <DependentUpon>ReadTag_Param.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\ReadTag_Param.zh-Hans.resx">
+      <DependentUpon>ReadTag_Param.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\RFID_Option.en-IE.resx">
+      <DependentUpon>RFID_Option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\RFID_Option.en.resx">
+      <DependentUpon>RFID_Option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\RFID_Option.resx">
+      <DependentUpon>RFID_Option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\SearchDevice.en.resx">
+      <DependentUpon>SearchDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\SearchDevice.resx">
+      <DependentUpon>SearchDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TCP_Server.en.resx">
+      <DependentUpon>TCP_Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TCP_Server.resx">
+      <DependentUpon>TCP_Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Performance_R_List.en.resx" />
+    <EmbeddedResource Include="MySingleForm\TestForm\Performance_R_List.resx" />
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_Option.en.resx">
+      <DependentUpon>Tag_Option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_Option.resx">
+      <DependentUpon>Tag_Option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_Option6B.en.resx">
+      <DependentUpon>Tag_Option6B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_Option6B.resx">
+      <DependentUpon>Tag_Option6B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_OptionGB.en.resx">
+      <DependentUpon>Tag_OptionGB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_OptionGB.hu-HU.resx">
+      <DependentUpon>Tag_OptionGB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySingleForm\TestForm\Tag_OptionGB.resx">
+      <DependentUpon>Tag_OptionGB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SingleMainForm.en.resx">
+      <DependentUpon>SingleMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleMainForm.resx">
+      <DependentUpon>SingleMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleMainForm.zh.resx">
+      <DependentUpon>SingleMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ordenes_de_Trabajo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ordenes_de_Trabajo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MyFormTemplet\Images\folder.png" />
+    <Content Include="QQ\Button\down.png" />
+    <Content Include="QQ\Button\focus.png" />
+    <Content Include="QQ\Button\gray.png" />
+    <Content Include="QQ\Button\highlight.png" />
+    <Content Include="QQ\Button\Light.png" />
+    <Content Include="QQ\Button\normal.png" />
+    <Content Include="QQ\Button\White-side.png" />
+    <Content Include="QQ\CheckBox\hightlight.png" />
+    <Content Include="QQ\CheckBox\normal.png" />
+    <Content Include="QQ\CheckBox\tick_highlight.png" />
+    <Content Include="QQ\CheckBox\tick_normal.png" />
+    <Content Include="QQ\CheckBox\_tick_highlight.png" />
+    <Content Include="QQ\CheckBox\_tick_normal.png" />
+    <Content Include="QQ\ComboBox\login_inputbtn_down.png" />
+    <Content Include="QQ\ComboBox\login_inputbtn_highlight.png" />
+    <Content Include="QQ\ComboBox\login_inputbtn_normal.png" />
+    <Content Include="QQ\ContextMenu\menu_arrow.png" />
+    <Content Include="QQ\ContextMenu\menu_bkg.png" />
+    <Content Include="QQ\ContextMenu\menu_bkg_board.png" />
+    <Content Include="QQ\ContextMenu\menu_check.png" />
+    <Content Include="QQ\ContextMenu\menu_cutling.png" />
+    <Content Include="QQ\ContextMenu\menu_highlight.png" />
+    <Content Include="QQ\FormFrame\ContactFilter_splitter.png" />
+    <Content Include="QQ\FormFrame\fringe_bkg.png" />
+    <Content Include="QQ\head.png" />
+    <Content Include="QQ\ListBox\comboboxEraseButton_Hover.png" />
+    <Content Include="QQ\ListBox\comboboxEraseButton_Normal.bmp" />
+    <Content Include="QQ\ListBox\comboboxEraseButton_Push.png" />
+    <Content Include="QQ\ListBox\listitem_check.png" />
+    <Content Include="QQ\RadioButton\highlight.png" />
+    <Content Include="QQ\RadioButton\normal.png" />
+    <Content Include="QQ\RadioButton\tick_highlight.png" />
+    <Content Include="QQ\RadioButton\tick_normal.png" />
+    <Content Include="QQ\ScrollBar\Scrollbg.png" />
+    <Content Include="QQ\ScrollBar\Scrollkit.png" />
+    <Content Include="QQ\ScrollBar\VScroll_Down.png" />
+    <Content Include="QQ\ScrollBar\VScroll_Middle.png" />
+    <Content Include="QQ\ScrollBar\VScroll_Middle_Enter.png" />
+    <Content Include="QQ\ScrollBar\VScroll_Up.png" />
+    <Content Include="QQ\SkinMgr\aio_light_bkg.png" />
+    <Content Include="QQ\SkinMgr\aio_nolight_bkg.png" />
+    <Content Include="QQ\SkinMgr\aio_png_bkg.png" />
+    <Content Include="QQ\SkinMgr\aio_png_bkg_sms.png" />
+    <Content Include="QQ\SkinMgr\aio_white_bkg.png" />
+    <Content Include="QQ\SkinMgr\aio_withbar_png_bkg.png" />
+    <Content Include="QQ\SkinMgr\all_inside02_bkg.png" />
+    <Content Include="QQ\SkinMgr\all_inside04_bkg.png" />
+    <Content Include="QQ\SkinMgr\all_inside05_bkg.png" />
+    <Content Include="QQ\SkinMgr\all_inside_bkg.png" />
+    <Content Include="QQ\SkinMgr\all_light_bkg.png" />
+    <Content Include="QQ\SkinMgr\all_nolight_bkg.png" />
+    <Content Include="QQ\SkinMgr\all_white_bkg.png" />
+    <Content Include="QQ\SkinMgr\fringe_bkg.png.png" />
+    <Content Include="QQ\SkinMgr\lock_png_bkg.png" />
+    <Content Include="QQ\SkinMgr\main_bluelight_bkg.png" />
+    <Content Include="QQ\SkinMgr\main_light_bkg.png" />
+    <Content Include="QQ\SkinMgr\main_nolight_bkg.png" />
+    <Content Include="QQ\SkinMgr\main_png_bkg.png" />
+    <Content Include="QQ\SkinMgr\main_white_bkg.png" />
+    <Content Include="QQ\SkinMgr\shadow_bkg.png.png" />
+    <Content Include="QQ\SkinMgr\whilt_bkg.png.png" />
+    <Content Include="QQ\SysButton\btn_close_down.png" />
+    <Content Include="QQ\SysButton\btn_close_highlight.png" />
+    <Content Include="QQ\SysButton\btn_close_normal.png" />
+    <Content Include="QQ\SysButton\btn_max_down.png" />
+    <Content Include="QQ\SysButton\btn_max_highlight.png" />
+    <Content Include="QQ\SysButton\btn_max_normal.png" />
+    <Content Include="QQ\SysButton\btn_mini_down.png" />
+    <Content Include="QQ\SysButton\btn_mini_highlight.png" />
+    <Content Include="QQ\SysButton\btn_mini_normal.png" />
+    <Content Include="QQ\SysButton\btn_restore_down.png" />
+    <Content Include="QQ\SysButton\btn_restore_highlight.png" />
+    <Content Include="QQ\SysButton\btn_restore_normal.png" />
+    <Content Include="QQ\TabControl\main_tabbtn_down.png" />
+    <Content Include="QQ\TabControl\main_tabbtn_highlight.png" />
+    <Content Include="QQ\TabControl\main_tab_background.png" />
+    <Content Include="QQ\TabControl\main_tab_bkg.png" />
+    <Content Include="QQ\TabControl\main_tab_check.png" />
+    <Content Include="QQ\TabControl\main_tab_highlight.png" />
+    <Content Include="QQ\TextBox\move.png" />
+    <Content Include="QQ\TextBox\normal.png" />
+    <Content Include="QQ\ToolButton\allbtn_down.png" />
+    <Content Include="QQ\ToolButton\allbtn_highlight.png" />
+    <Content Include="QQ\ToolButton\allbtn_left_down.png" />
+    <Content Include="QQ\ToolButton\allbtn_left_highlight.png" />
+    <Content Include="QQ\ToolButton\allbtn_right_down.png" />
+    <Content Include="QQ\ToolButton\allbtn_right_highlight.png" />
+    <Content Include="QQ\UserList\collapseTexture.png" />
+    <Content Include="QQ\UserList\collapseTextureHigh.png" />
+    <Content Include="QQ\UserList\expandTexture.png" />
+    <Content Include="QQ\UserList\expandTextureHigh.png" />
+    <Content Include="QQ\UserList\headbg.png" />
+    <Content Include="ReaderConfig.xml" />
+    <Content Include="Resources\10001.png" />
+    <Content Include="Resources\100010.png" />
+    <Content Include="Resources\100011.png" />
+    <Content Include="Resources\100012.png" />
+    <Content Include="Resources\10002.png" />
+    <Content Include="Resources\10003.png" />
+    <Content Include="Resources\10004.png" />
+    <Content Include="Resources\10005.png" />
+    <Content Include="Resources\10006.png" />
+    <Content Include="Resources\10007.png" />
+    <Content Include="Resources\10008.png" />
+    <Content Include="Resources\10009.png" />
+    <Content Include="Resources\10010.png" />
+    <Content Include="Resources\10011.png" />
+    <Content Include="Resources\10012.png" />
+    <Content Include="Resources\10013.png" />
+    <Content Include="Resources\10014.png" />
+    <Content Include="Resources\10015.png" />
+    <Content Include="Resources\10016.png" />
+    <Content Include="Resources\10017.png" />
+    <Content Include="Resources\10018.png" />
+    <Content Include="Resources\10020.png" />
+    <Content Include="Resources\10021.png" />
+    <Content Include="Resources\10021_1.png" />
+    <Content Include="Resources\10022.png" />
+    <Content Include="Resources\10023.png" />
+    <Content Include="Resources\10024.png" />
+    <Content Include="Resources\10025.png" />
+    <Content Include="Resources\10026.png" />
+    <Content Include="Resources\background.jpg" />
+    <Content Include="Resources\bg.jpg" />
+    <Content Include="Resources\btncheck11.png" />
+    <Content Include="Resources\btncheck12.png" />
+    <Content Include="Resources\btncheckoff1.png" />
+    <Content Include="Resources\btncheckoff11 .png" />
+    <Content Include="Resources\btncheckoff2.png" />
+    <Content Include="Resources\btncheckoff3.png" />
+    <Content Include="Resources\btncheckoff4.png" />
+    <Content Include="Resources\btncheckoff5.png" />
+    <Content Include="Resources\btncheckoff6.png" />
+    <Content Include="Resources\btncheckon1.png" />
+    <Content Include="Resources\btncheckon11 .png" />
+    <Content Include="Resources\btncheckon2.png" />
+    <Content Include="Resources\btncheckon3.png" />
+    <Content Include="Resources\btncheckon4.png" />
+    <Content Include="Resources\btncheckon5.png" />
+    <Content Include="Resources\btncheckon6.png" />
+    <Content Include="Resources\Cancel.gif" />
+    <Content Include="Resources\waiting.gif" />
+    <Content Include="Resources\_loading.gif" />
+    <Content Include="Resources\_return.gif" />
+    <Content Include="RFIDReaderAPI.dll" />
+    <Content Include="_360\Form\framemod.png" />
+    <Content Include="_360\Form\title_bar_menu.png" />
+    <Content Include="_360\SysButton\sys_button_close.png" />
+    <Content Include="_360\SysButton\sys_button_max.png" />
+    <Content Include="_360\SysButton\sys_button_min.png" />
+    <Content Include="_360\SysButton\sys_button_restore.png" />
+    <Content Include="_360\SysButton\title_bar_menu.png" />
+    <Content Include="_360\ToolBar\toolbar_hover.png" />
+    <Content Include="_360\ToolBar\toolbar_normal.png" />
+    <Content Include="_360\ToolBar\toolbar_pushed.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

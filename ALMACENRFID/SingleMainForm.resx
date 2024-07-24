@@ -1,0 +1,3899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="clm_RSSI.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1454, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tsmi_AdvancedSettings.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F6</value>
+  </data>
+  <data name="&gt;&gt;gb_ReadType.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;ANT16.Name" xml:space="preserve">
+    <value>ANT16</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 45</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_UserData.Name" xml:space="preserve">
+    <value>tsddm_tsmi_UserData</value>
+  </data>
+  <data name="cms_tsmi_ClearList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="&gt;&gt;rb_gb.Name" xml:space="preserve">
+    <value>rb_gb</value>
+  </data>
+  <data name="led_Time.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 31</value>
+  </data>
+  <data name="&gt;&gt;ANT12.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;ANT23.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ANT8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 37</value>
+  </data>
+  <data name="tsddm_tsmi_G2V2Challenge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;tsb_Write_UserData.Name" xml:space="preserve">
+    <value>tsb_Write_UserData</value>
+  </data>
+  <data name="tsb_Write_UserData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 42</value>
+  </data>
+  <data name="&gt;&gt;ANT21.Name" xml:space="preserve">
+    <value>ANT21</value>
+  </data>
+  <data name="&gt;&gt;ANT12.Name" xml:space="preserve">
+    <value>ANT12</value>
+  </data>
+  <data name="panel_MiddleCenter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ANT20.Text" xml:space="preserve">
+    <value>天线20</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Language_CN.Name" xml:space="preserve">
+    <value>tsmi_Language_CN</value>
+  </data>
+  <data name="clm_ANT3.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="clm_ANT23.HeaderText" xml:space="preserve">
+    <value>ANT23</value>
+  </data>
+  <data name="clm_ANT24.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="tsb_Read_Global.Text" xml:space="preserve">
+    <value>自定义读(高级)</value>
+  </data>
+  <data name="tsddm_tsmi_Phase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;tsmi_485Conn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_ANT7.HeaderText" xml:space="preserve">
+    <value>ANT7</value>
+  </data>
+  <data name="led_Speed.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lb_ReceiveCount.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tssl_TotalConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="tsddm_tsmi_ANT18.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tsmi_SearchDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT21.Text" xml:space="preserve">
+    <value>天线21</value>
+  </data>
+  <data name="&gt;&gt;panel_MiddleCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tssl_TotalCountName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tb_DebugMsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1454, 67</value>
+  </data>
+  <data name="clm_ANT20.HeaderText" xml:space="preserve">
+    <value>ANT20</value>
+  </data>
+  <data name="panel_Top.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rb_6c.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQRadioButton, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ANT9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ANT23.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="clm_ANT23.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;led_Time.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>全不选</value>
+  </data>
+  <data name="ANT22.Text" xml:space="preserve">
+    <value>天线22</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>GPI：</value>
+  </data>
+  <data name="tsddm_tsmi_G2V2Data.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;gb_ReadType.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;clm_ReserveData.Name" xml:space="preserve">
+    <value>clm_ReserveData</value>
+  </data>
+  <data name="&gt;&gt;ANT19.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ANT9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="&gt;&gt;tsmi_485Conn.Name" xml:space="preserve">
+    <value>tsmi_485Conn</value>
+  </data>
+  <data name="ANT22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tsb_ClearList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tssl_CacheSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="cms_tsmi_WriteUserData.Text" xml:space="preserve">
+    <value>写用户数据</value>
+  </data>
+  <data name="&gt;&gt;panel_Debug.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ANT13.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ANT1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="tsb_Read_Global.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 42</value>
+  </data>
+  <data name="tsddm_tsmi_ANT8.Text" xml:space="preserve">
+    <value>ANT8</value>
+  </data>
+  <data name="panel_Middle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ANT13.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="ANT20.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="tsb_WriteGlobal.Text" xml:space="preserve">
+    <value>通用写(高级)</value>
+  </data>
+  <data name="&gt;&gt;tsmi_ClearCacheTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_ANT9.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;ANT17.Name" xml:space="preserve">
+    <value>ANT17</value>
+  </data>
+  <data name="tsddm_tsmi_EPCData.Text" xml:space="preserve">
+    <value>EPCData</value>
+  </data>
+  <data name="ANT17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 103</value>
+  </data>
+  <data name="&gt;&gt;ANT15.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ANT19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tsddm_tsmi_ANT23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="ANT24.Text" xml:space="preserve">
+    <value>天线24</value>
+  </data>
+  <data name="tsddm_tsmi_ANT6.Text" xml:space="preserve">
+    <value>ANT6</value>
+  </data>
+  <data name="tsddm_tsmi_ANT23.Text" xml:space="preserve">
+    <value>ANT23</value>
+  </data>
+  <data name="ANT20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clm_ANT16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="clm_UserData.HeaderText" xml:space="preserve">
+    <value>UserData</value>
+  </data>
+  <data name="tsddm_tsmi_ANT24.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="clm_ReadTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;rb_gb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tsb_Write_UserData.Text" xml:space="preserve">
+    <value>写用户数据</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_ReceiveCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt, style=Bold</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 152</value>
+  </data>
+  <data name="rb_gb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 24</value>
+  </data>
+  <data name="ANT6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="tsddm_tsmi_ANT16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;clm_EPC.Name" xml:space="preserve">
+    <value>clm_EPC</value>
+  </data>
+  <data name="ANT7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="tsddm_tsmi_ANT11.Text" xml:space="preserve">
+    <value>ANT11</value>
+  </data>
+  <data name="rb_Single.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="clm_ANT21.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="ANT14.Text" xml:space="preserve">
+    <value>天线14</value>
+  </data>
+  <data name="tsddm_tsmi_ANT11.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="clm_ANT18.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;rb_Single.Parent" xml:space="preserve">
+    <value>gb_ReadType</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>读取次数：</value>
+  </data>
+  <data name="&gt;&gt;lb_ReceiveCount.Name" xml:space="preserve">
+    <value>lb_ReceiveCount</value>
+  </data>
+  <data name="tsmi_GetReaderMsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="tsmi_AdvancedSettings.Text" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT22.Name" xml:space="preserve">
+    <value>clm_ANT22</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;panel_Middle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_ANT24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;ANT21.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="panel_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1454, 82</value>
+  </data>
+  <data name="&gt;&gt;ANT24.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="clm_ANT15.HeaderText" xml:space="preserve">
+    <value>ANT15</value>
+  </data>
+  <data name="rb_Single.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clm_G2V2Data.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 186</value>
+  </data>
+  <data name="tb_DebugMsg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rb_gb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 16</value>
+  </data>
+  <data name="&gt;&gt;ANT17.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;rb_Single.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQRadioButton, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 108</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel2.Name" xml:space="preserve">
+    <value>toolStripStatusLabel2</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT7.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT7</value>
+  </data>
+  <data name="led_Speed.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ANT8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="uSB模式ToolStripMenuItem.Text" xml:space="preserve">
+    <value>USB模式(&amp;U)</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ANT8.Text" xml:space="preserve">
+    <value>天线8</value>
+  </data>
+  <data name="tsddm_tsmi_ANT20.Text" xml:space="preserve">
+    <value>ANT20</value>
+  </data>
+  <data name="tsddm_tsmi_ANT17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="tsddm_tsmi_ANT17.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="clm_ANT17.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;panel_MiddleRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT14.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;tsb_Read_Epc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT1.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;tsb_Read_Global.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT8.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT8</value>
+  </data>
+  <data name="clm_ANT13.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="ANT22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 125</value>
+  </data>
+  <data name="tsddm_tsmi_ANT16.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tsmi_GetReaderMsg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ANT20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 103</value>
+  </data>
+  <data name="ANT3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>标签总数：</value>
+  </data>
+  <data name="&gt;&gt;ANT11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tsddm_tsmi_RSSI.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsddm_tsmi_ANT13.Text" xml:space="preserve">
+    <value>ANT13</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SingleMainForm</value>
+  </data>
+  <data name="tsb_ClearList.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_G2V2Data.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT24.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ANT7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 37</value>
+  </data>
+  <data name="tsmi_SearchDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT9.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT9</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>panel_Debug</value>
+  </data>
+  <data name="tb_DebugMsg.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tsddm_tsmi_ANT21.Text" xml:space="preserve">
+    <value>ANT21</value>
+  </data>
+  <data name="&gt;&gt;tssl_NowConnID.Name" xml:space="preserve">
+    <value>tssl_NowConnID</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>时间(S)：</value>
+  </data>
+  <data name="clm_ANT10.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Helper.Name" xml:space="preserve">
+    <value>tsmi_Helper</value>
+  </data>
+  <data name="clm_ANT21.HeaderText" xml:space="preserve">
+    <value>ANT21</value>
+  </data>
+  <data name="tsm_Main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1454, 55</value>
+  </data>
+  <data name="clm_ANT9.HeaderText" xml:space="preserve">
+    <value>ANT9</value>
+  </data>
+  <data name="&gt;&gt;tsb_Write_EPC.Name" xml:space="preserve">
+    <value>tsb_Write_EPC</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsb_Write_EPC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 42</value>
+  </data>
+  <data name="tsddm_tsmi_ANT10.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmi_TCPServer.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F5</value>
+  </data>
+  <data name="tsmi_GetCacheTag.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+F5</value>
+  </data>
+  <data name="&gt;&gt;tsb_ClearList.Name" xml:space="preserve">
+    <value>tsb_ClearList</value>
+  </data>
+  <data name="&gt;&gt;ANT5.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tsddm_tsmi_ANT14.Text" xml:space="preserve">
+    <value>ANT14</value>
+  </data>
+  <data name="clm_ANT17.HeaderText" xml:space="preserve">
+    <value>ANT17</value>
+  </data>
+  <data name="clm_EMTemp.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="clm_Frequency.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="tsddm_tsmi_ANT22.Text" xml:space="preserve">
+    <value>ANT22</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT16.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT16</value>
+  </data>
+  <data name="&gt;&gt;tsb_WriteGlobal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_EPCData.Name" xml:space="preserve">
+    <value>clm_EPCData</value>
+  </data>
+  <data name="panel_MiddleCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="led_Tag_ReadCount.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="clm_ANT19.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsddm_tsmi_ANT18.Text" xml:space="preserve">
+    <value>ANT18</value>
+  </data>
+  <data name="tssl_NowConnID.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;led_Tag_ReadCount.Type" xml:space="preserve">
+    <value>BW.BAR2EPC.SERVER.MAIN.LxLedControl, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tsddm_tsmi_G2V2Challenge.Text" xml:space="preserve">
+    <value>G2V2Challenge</value>
+  </data>
+  <data name="ANT6.Text" xml:space="preserve">
+    <value>天线6</value>
+  </data>
+  <data name="&gt;&gt;ANT1.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_ReserveData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="tsb_CloseNowConnect.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>速率(T/S)：</value>
+  </data>
+  <data name="&gt;&gt;tsb_ResetReader.Name" xml:space="preserve">
+    <value>tsb_ResetReader</value>
+  </data>
+  <data name="led_Tag_ReadCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 31</value>
+  </data>
+  <data name="btn_GPI_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 183</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT4.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT4</value>
+  </data>
+  <data name="ANT11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 59</value>
+  </data>
+  <data name="ANT15.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="tsddm_tsmi_ANT15.Text" xml:space="preserve">
+    <value>ANT15</value>
+  </data>
+  <data name="btn_GPI_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 27</value>
+  </data>
+  <data name="tsddm_tsmi_ANT13.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ANT2.Text" xml:space="preserve">
+    <value>天线2</value>
+  </data>
+  <data name="rb_6b.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel_Middle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1454, 789</value>
+  </data>
+  <data name="toolStripSeparator1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripStatusLabel4.Text" xml:space="preserve">
+    <value>当前连接：</value>
+  </data>
+  <data name="&gt;&gt;ANT17.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tb_DebugMsg.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="clm_G2V2Challenge.HeaderText" xml:space="preserve">
+    <value>G2V2Challenge</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="ANT10.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT6.Name" xml:space="preserve">
+    <value>clm_ANT6</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT5.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT5</value>
+  </data>
+  <data name="tsddm_tsmi_ANT1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="ANT16.Text" xml:space="preserve">
+    <value>天线16</value>
+  </data>
+  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ANT18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 103</value>
+  </data>
+  <data name="&gt;&gt;tssl_CPULoad.Name" xml:space="preserve">
+    <value>tssl_CPULoad</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="led_Tag_Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="&gt;&gt;ANT19.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;tsb_ResetReader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dgv_Tags.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStripStatusLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="&gt;&gt;lb_ReceiveCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel_Debug.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;clm_EMTemp.Name" xml:space="preserve">
+    <value>clm_EMTemp</value>
+  </data>
+  <data name="clm_ANT20.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rb_Single.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="gb_ReadControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="clm_G2V2Challenge.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ANT14.Name" xml:space="preserve">
+    <value>ANT14</value>
+  </data>
+  <data name="&gt;&gt;tsmi_GetReaderMsg.Name" xml:space="preserve">
+    <value>tsmi_GetReaderMsg</value>
+  </data>
+  <data name="&gt;&gt;ANT22.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="clm_Phase.HeaderText" xml:space="preserve">
+    <value>Phase</value>
+  </data>
+  <data name="tsddm_tsmi_ANT1.Text" xml:space="preserve">
+    <value>ANT1</value>
+  </data>
+  <data name="tsddm_tsmi_G2V2Challenge.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ReserveData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_RSSI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;gb_TagType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_2.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.RoundButton, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;ANT10.Name" xml:space="preserve">
+    <value>ANT10</value>
+  </data>
+  <data name="&gt;&gt;ANT13.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ANT16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cms_tsmi_ClearList.Text" xml:space="preserve">
+    <value>清空列表</value>
+  </data>
+  <data name="&gt;&gt;gb_ReadControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ANT23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 125</value>
+  </data>
+  <data name="ANT24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tsmi_GetBaseBandVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT12.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="clm_UserData.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="clm_ANT5.HeaderText" xml:space="preserve">
+    <value>ANT5</value>
+  </data>
+  <data name="lb_ReceiveCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1151, 17</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT24.Name" xml:space="preserve">
+    <value>clm_ANT24</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet._360Form, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tsddm_tsmi_ReserveData.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;lb_ReceiveCount.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;ANT4.Name" xml:space="preserve">
+    <value>ANT4</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT15.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT15</value>
+  </data>
+  <data name="&gt;&gt;tsmi_SearchDevice.Name" xml:space="preserve">
+    <value>tsmi_SearchDevice</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_ANT15.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -2</value>
+  </data>
+  <data name="&gt;&gt;ANT6.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;led_Time.Type" xml:space="preserve">
+    <value>BW.BAR2EPC.SERVER.MAIN.LxLedControl, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tsmi_Exit.Text" xml:space="preserve">
+    <value>退出(&amp;X)</value>
+  </data>
+  <data name="&gt;&gt;配置ToolStripMenuItem.Name" xml:space="preserve">
+    <value>配置ToolStripMenuItem</value>
+  </data>
+  <data name="tsddm_tsmi_Phase.Text" xml:space="preserve">
+    <value>Phase</value>
+  </data>
+  <data name="tmsi_SerialConn.Text" xml:space="preserve">
+    <value>串口模式(&amp;S)</value>
+  </data>
+  <data name="tsb_Read_EPCTID.Text" xml:space="preserve">
+    <value>读TID</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT1.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT1</value>
+  </data>
+  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_0.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ANT18.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tsm_Main.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;led_Tag_Count.Type" xml:space="preserve">
+    <value>BW.BAR2EPC.SERVER.MAIN.LxLedControl, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tb_DebugMsg.Name" xml:space="preserve">
+    <value>tb_DebugMsg</value>
+  </data>
+  <data name="&gt;&gt;panel_MiddleCenter.Name" xml:space="preserve">
+    <value>panel_MiddleCenter</value>
+  </data>
+  <data name="ANT1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clm_ANT11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ANT7.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="ANT14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmi_TCPClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT2.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tsddm_tsmi_EPC.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="led_Tag_Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 32</value>
+  </data>
+  <data name="&gt;&gt;ANT24.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;tb_DebugMsg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_3.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.RoundButton, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="gb_ReadControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;clm_G2V2Data.Name" xml:space="preserve">
+    <value>clm_G2V2Data</value>
+  </data>
+  <data name="lb_ReceiveCount.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="clm_Phase.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Helper.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsb_CloseNowConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsmt_SNGet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="tsb_ClearList.Text" xml:space="preserve">
+    <value>清空列表</value>
+  </data>
+  <data name="ANT13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="tssl_CPULoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="ANT23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="clm_ANT8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ANT11.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="clm_ReaderName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tsddb_SelectColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="toolStripStatusLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_UserData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_6b.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rb_Single.Text" xml:space="preserve">
+    <value>单次</value>
+  </data>
+  <data name="rb_While.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="tsb_ResetReader.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="gb_TagType.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="tsb_WriteGlobal.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ANT22.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;clm_Frequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rb_6c.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="clm_ReaderName.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;panel_Middle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="clm_ANT12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ANT6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clm_ANT19.HeaderText" xml:space="preserve">
+    <value>ANT19</value>
+  </data>
+  <data name="&gt;&gt;led_Time.Name" xml:space="preserve">
+    <value>led_Time</value>
+  </data>
+  <data name="&gt;&gt;cms_tsmi_WriteUserData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT6.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT6</value>
+  </data>
+  <data name="tb_DebugMsg.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="tsddm_tsmi_ANT9.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT7.Name" xml:space="preserve">
+    <value>clm_ANT7</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;rb_6c.Parent" xml:space="preserve">
+    <value>gb_TagType</value>
+  </data>
+  <data name="gb_TagType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 55</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT5.Name" xml:space="preserve">
+    <value>clm_ANT5</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_RSSI.Name" xml:space="preserve">
+    <value>tsddm_tsmi_RSSI</value>
+  </data>
+  <data name="btn_GPI_3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ANT1.Name" xml:space="preserve">
+    <value>ANT1</value>
+  </data>
+  <data name="tsb_Read_Global.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_TagType.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;dgv_Tags.Name" xml:space="preserve">
+    <value>dgv_Tags</value>
+  </data>
+  <data name="&gt;&gt;tsmi_AdvancedSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT14.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ANT16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clm_ANT11.HeaderText" xml:space="preserve">
+    <value>ANT11</value>
+  </data>
+  <data name="&gt;&gt;ANT20.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ANT4.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_EPCData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_EPC.HeaderText" xml:space="preserve">
+    <value>EPC</value>
+  </data>
+  <data name="&gt;&gt;led_Speed.Type" xml:space="preserve">
+    <value>BW.BAR2EPC.SERVER.MAIN.LxLedControl, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT4.Name" xml:space="preserve">
+    <value>clm_ANT4</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ReadTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rb_Single.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="tsddm_tsmi_ANT23.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ANT22.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;ANT9.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="rb_6c.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="tsddm_tsmi_ANT8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="clm_ANT2.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="tsb_Read_EPCTID.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;ANT10.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="clm_ANT24.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="clm_Frequency.HeaderText" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="tsddm_tsmi_G2V2Data.Text" xml:space="preserve">
+    <value>G2V2Data</value>
+  </data>
+  <data name="tsb_Write_EPC.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;rb_6b.Parent" xml:space="preserve">
+    <value>gb_TagType</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="tsddb_SelectColumn.ToolTipText" xml:space="preserve">
+    <value>选择要显示的数据列</value>
+  </data>
+  <data name="tsddm_tsmi_ANT21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="ANT17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="panel_MiddleCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_RFTemp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tssl_TotalConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_TID.HeaderText" xml:space="preserve">
+    <value>TID</value>
+  </data>
+  <data name="ANT13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ANT11.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="tsddm_tsmi_ReadTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="clm_ANT22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsmi_Helper.Text" xml:space="preserve">
+    <value>帮助(&amp;H)</value>
+  </data>
+  <data name="tsddm_tsmi_ANT3.Text" xml:space="preserve">
+    <value>ANT3</value>
+  </data>
+  <data name="toolStripStatusLabel2.Text" xml:space="preserve">
+    <value>CPU使用率(%)：</value>
+  </data>
+  <data name="tsddm_tsmi_ANT22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="tsmi_GetBaseBandVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="&gt;&gt;panel_Top.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="tsddm_tsmi_ANT3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;tsb_Read_EPCTID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_ANT10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;tsmi_TCPServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT15.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ANT17.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="ANT12.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="tsmi_Language_CN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="led_Time.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 142</value>
+  </data>
+  <data name="&gt;&gt;ANT6.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cms_tsmi_ClearList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 125</value>
+  </data>
+  <data name="clm_ANT22.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="ANT14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;rb_While.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT18.Name" xml:space="preserve">
+    <value>clm_ANT18</value>
+  </data>
+  <data name="ANT11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="tsb_Read_Epc.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1460, 920</value>
+  </data>
+  <data name="tsm_Main.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 5, 0, 5</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;tsm_Main.Name" xml:space="preserve">
+    <value>tsm_Main</value>
+  </data>
+  <data name="clm_ANT6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT23.Name" xml:space="preserve">
+    <value>clm_ANT23</value>
+  </data>
+  <data name="tsddm_tsmi_ANT1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ANT10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clm_ANT8.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tsddm_tsmi_ANT7.Text" xml:space="preserve">
+    <value>ANT7</value>
+  </data>
+  <data name="clm_ANT5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ANT13.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="clm_ANT13.HeaderText" xml:space="preserve">
+    <value>ANT13</value>
+  </data>
+  <data name="&gt;&gt;pc_Processor.Name" xml:space="preserve">
+    <value>pc_Processor</value>
+  </data>
+  <data name="&gt;&gt;cms_tsmi_WriteEpc.Name" xml:space="preserve">
+    <value>cms_tsmi_WriteEpc</value>
+  </data>
+  <data name="clm_ANT4.HeaderText" xml:space="preserve">
+    <value>ANT4</value>
+  </data>
+  <data name="&gt;&gt;ANT19.Name" xml:space="preserve">
+    <value>ANT19</value>
+  </data>
+  <data name="&gt;&gt;cms_tsmi_Copy.Name" xml:space="preserve">
+    <value>cms_tsmi_Copy</value>
+  </data>
+  <data name="tsb_Read_Global.ToolTipText" xml:space="preserve">
+    <value>自定义读(高级)</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>实时信息：</value>
+  </data>
+  <data name="panel_Middle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="clm_EPC.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ReadTime.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ReadTime</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lb_ReceiveCount.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="rb_While.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="&gt;&gt;clm_ReadTime.Name" xml:space="preserve">
+    <value>clm_ReadTime</value>
+  </data>
+  <data name="led_Time.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="ANT5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="&gt;&gt;led_Speed.Name" xml:space="preserve">
+    <value>led_Speed</value>
+  </data>
+  <data name="tsddm_tsmi_ANT11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rb_gb.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="lb_ReceiveCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_While.Text" xml:space="preserve">
+    <value>循环</value>
+  </data>
+  <data name="tsddm_tsmi_ANT2.Text" xml:space="preserve">
+    <value>ANT2</value>
+  </data>
+  <data name="tssl_TotalConnect.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ANT3.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="ANT18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gb_ReadType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 181</value>
+  </data>
+  <data name="tsddm_tsmi_ANT19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;panel_Debug.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tsddb_SelectColumn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 44</value>
+  </data>
+  <data name="&gt;&gt;ANT12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;led_Tag_ReadCount.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="ANT19.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="ANT14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="&gt;&gt;panel_MiddleCenter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tsddm_tsmi_RSSI.Text" xml:space="preserve">
+    <value>RSSI</value>
+  </data>
+  <data name="ANT19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;rb_Single.Name" xml:space="preserve">
+    <value>rb_Single</value>
+  </data>
+  <data name="splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="rb_6b.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 16</value>
+  </data>
+  <data name="clm_ANT14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;clm_EPCData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_UserData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 16</value>
+  </data>
+  <data name="ANT23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="tsddm_tsmi_ANT21.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Connect.Name" xml:space="preserve">
+    <value>tsmi_Connect</value>
+  </data>
+  <data name="tsddm_tsmi_ANT2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;panel_Top.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ANT15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 81</value>
+  </data>
+  <data name="ANT15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="led_Tag_ReadCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 60</value>
+  </data>
+  <data name="clm_ReadTime.HeaderText" xml:space="preserve">
+    <value>ReadTime</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_MiddleRight.Name" xml:space="preserve">
+    <value>panel_MiddleRight</value>
+  </data>
+  <data name="tsddm_tsmi_ANT16.Text" xml:space="preserve">
+    <value>ANT16</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;dgv_Tags.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.DataGridViewPlus, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT18.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT18</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 16</value>
+  </data>
+  <data name="tsmi_485Conn.Text" xml:space="preserve">
+    <value>485模式(串口)(&amp;R)</value>
+  </data>
+  <data name="&gt;&gt;led_Speed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gb_ReadType.Name" xml:space="preserve">
+    <value>gb_ReadType</value>
+  </data>
+  <data name="&gt;&gt;tmsi_SerialConn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gb_TagType.Text" xml:space="preserve">
+    <value>标签类型：</value>
+  </data>
+  <data name="ANT23.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;tsmt_SNGet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_6c.Name" xml:space="preserve">
+    <value>rb_6c</value>
+  </data>
+  <data name="&gt;&gt;led_Time.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;rb_6b.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQRadioButton, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT7.Text" xml:space="preserve">
+    <value>天线7</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Language_EN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ANT16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="tsmi_TCPServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="led_Tag_ReadCount.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="clm_ANT20.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uSB模式ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="tsb_ResetReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 42</value>
+  </data>
+  <data name="tsddm_tsmi_ANT5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="rb_6c.Text" xml:space="preserve">
+    <value>6C 标签</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_2.Name" xml:space="preserve">
+    <value>btn_GPI_2</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_While.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="clm_RFTemp.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;rb_While.Parent" xml:space="preserve">
+    <value>gb_ReadType</value>
+  </data>
+  <data name="&gt;&gt;clm_ReaderName.Name" xml:space="preserve">
+    <value>clm_ReaderName</value>
+  </data>
+  <data name="gb_ReadType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 50</value>
+  </data>
+  <data name="ANT17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tssl_NowConnID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT4.Text" xml:space="preserve">
+    <value>天线4</value>
+  </data>
+  <data name="ANT17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT1.Text" xml:space="preserve">
+    <value>天线1</value>
+  </data>
+  <data name="&gt;&gt;gb_TagType.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="tsddm_tsmi_ANT22.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_GPI_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 27</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Name" xml:space="preserve">
+    <value>splitter1</value>
+  </data>
+  <data name="clm_TagType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;ANT4.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="rb_6b.Text" xml:space="preserve">
+    <value>6B 标签</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>状态栏</value>
+  </data>
+  <data name="&gt;&gt;cms_tsmi_Copy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT16.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ANT4.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="tsddm_tsmi_ANT17.Text" xml:space="preserve">
+    <value>ANT17</value>
+  </data>
+  <data name="ANT18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="&gt;&gt;ANT6.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="tsddm_tsmi_ANT5.Text" xml:space="preserve">
+    <value>ANT5</value>
+  </data>
+  <data name="tsmi_Language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 21</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT13.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT13</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tsddm_tsmi_ANT5.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsddm_tsmi_ANT20.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tssl_CPULoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsmi_GetBaseBandVersion.Text" xml:space="preserve">
+    <value>基带软件版本</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT2.Name" xml:space="preserve">
+    <value>clm_ANT2</value>
+  </data>
+  <data name="ANT13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tsddm_tsmi_Frequency.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_Frequency.Text" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="&gt;&gt;panel_MiddleCenter.Parent" xml:space="preserve">
+    <value>panel_Middle</value>
+  </data>
+  <data name="splitter1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ANT19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="tsmi_TCPClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="cms_tsmi_Copy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT10.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT10</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT23.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT23</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT9.Name" xml:space="preserve">
+    <value>clm_ANT9</value>
+  </data>
+  <data name="clm_Frequency.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ANT3.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="ANT18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_1.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.RoundButton, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT13.Name" xml:space="preserve">
+    <value>clm_ANT13</value>
+  </data>
+  <data name="ANT20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Parent" xml:space="preserve">
+    <value>panel_Middle</value>
+  </data>
+  <data name="tsddm_tsmi_Frequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_1.Name" xml:space="preserve">
+    <value>btn_GPI_1</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT15.Name" xml:space="preserve">
+    <value>ANT15</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>panel_MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT20.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT20</value>
+  </data>
+  <data name="ANT23.Text" xml:space="preserve">
+    <value>天线23</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_Phase.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="ANT11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ANT21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="&gt;&gt;ANT11.Name" xml:space="preserve">
+    <value>ANT11</value>
+  </data>
+  <data name="tsmi_GetCacheTag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 22</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ANT15.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_ANT4.Text" xml:space="preserve">
+    <value>ANT4</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_Phase.Name" xml:space="preserve">
+    <value>tsddm_tsmi_Phase</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_Frequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="led_Tag_Count.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_TID.Name" xml:space="preserve">
+    <value>tsddm_tsmi_TID</value>
+  </data>
+  <data name="clm_ANT17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ANT22.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="menuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="ANT22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="&gt;&gt;ANT9.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="clm_ANT15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tsmi_GetCacheTag.Name" xml:space="preserve">
+    <value>tsmi_GetCacheTag</value>
+  </data>
+  <data name="tsddm_tsmi_ANT12.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tssl_TotalCountName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="panel_Top.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="rb_While.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT20.Name" xml:space="preserve">
+    <value>clm_ANT20</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_GPI_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 183</value>
+  </data>
+  <data name="&gt;&gt;ANT2.Name" xml:space="preserve">
+    <value>ANT2</value>
+  </data>
+  <data name="tsddm_tsmi_ANT2.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tsb_WriteGlobal.Name" xml:space="preserve">
+    <value>tsb_WriteGlobal</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsb_CloseNowConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 42</value>
+  </data>
+  <data name="tsddm_tsmi_ANT9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;led_Tag_ReadCount.Name" xml:space="preserve">
+    <value>led_Tag_ReadCount</value>
+  </data>
+  <data name="&gt;&gt;gb_ReadControl.Parent" xml:space="preserve">
+    <value>panel_MiddleRight</value>
+  </data>
+  <data name="ANT24.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="ANT4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 15</value>
+  </data>
+  <data name="tsddm_tsmi_ANT7.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;rb_gb.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQRadioButton, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="gb_ReadControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tsddm_tsmi_G2V2Data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ANT9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 59</value>
+  </data>
+  <data name="&gt;&gt;tsb_CloseNowConnect.Name" xml:space="preserve">
+    <value>tsb_CloseNowConnect</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="tsmt_SNGet.Text" xml:space="preserve">
+    <value>序列号信息</value>
+  </data>
+  <data name="&gt;&gt;ANT2.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="tssl_CPULoad.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_Phase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsb_Stop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 42</value>
+  </data>
+  <data name="ANT12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 59</value>
+  </data>
+  <data name="&gt;&gt;ANT2.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="panel_Debug.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1454, 20</value>
+  </data>
+  <data name="tsmi_Helper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_ANT9.Text" xml:space="preserve">
+    <value>ANT9</value>
+  </data>
+  <data name="&gt;&gt;ANT20.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tsddm_tsmi_EPCData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;ANT18.Name" xml:space="preserve">
+    <value>ANT18</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="tsm_Main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="&gt;&gt;tsb_Read_Epc.Name" xml:space="preserve">
+    <value>tsb_Read_Epc</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;tsm_Main.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>RFID读写器管理软件 V2.20.0</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;clm_G2V2Data.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsb_CloseNowConnect.Text" xml:space="preserve">
+    <value>关闭当前连接</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_ANT23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmi_Language.Text" xml:space="preserve">
+    <value>语言(&amp;L)</value>
+  </data>
+  <data name="led_Tag_Count.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 68</value>
+  </data>
+  <data name="&gt;&gt;gb_TagType.Name" xml:space="preserve">
+    <value>gb_TagType</value>
+  </data>
+  <data name="&gt;&gt;tsb_Stop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_Phase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_TID.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsddm_tsmi_ANT6.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ANT14.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panel_Top.Name" xml:space="preserve">
+    <value>panel_Top</value>
+  </data>
+  <data name="&gt;&gt;tsm_Main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_RFTemp.Name" xml:space="preserve">
+    <value>clm_RFTemp</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Language_CN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_EMTemp.Text" xml:space="preserve">
+    <value>EMTemp</value>
+  </data>
+  <data name="&gt;&gt;ANT5.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="gb_TagType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 237</value>
+  </data>
+  <data name="ANT22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT21.Name" xml:space="preserve">
+    <value>clm_ANT21</value>
+  </data>
+  <data name="tsmi_TCPClient.Text" xml:space="preserve">
+    <value>TCP客户端模式(&amp;T)</value>
+  </data>
+  <data name="tsddm_tsmi_ReadTime.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsddm_tsmi_UserData.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="tsddm_tsmi_ANT15.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_EMTemp.Name" xml:space="preserve">
+    <value>tsddm_tsmi_EMTemp</value>
+  </data>
+  <data name="&gt;&gt;tssl_CacheSize.Name" xml:space="preserve">
+    <value>tssl_CacheSize</value>
+  </data>
+  <data name="ANT16.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="tsmi_SearchDevice.Text" xml:space="preserve">
+    <value>搜索设备(&amp;S)</value>
+  </data>
+  <data name="&gt;&gt;ANT1.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="tsb_WriteGlobal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 42</value>
+  </data>
+  <data name="&gt;&gt;rb_6b.Name" xml:space="preserve">
+    <value>rb_6b</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1171, 0</value>
+  </data>
+  <data name="ANT5.Text" xml:space="preserve">
+    <value>天线5</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 16</value>
+  </data>
+  <data name="&gt;&gt;ANT23.Name" xml:space="preserve">
+    <value>ANT23</value>
+  </data>
+  <data name="clm_ANT4.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="clm_ReserveData.HeaderText" xml:space="preserve">
+    <value>ReserveData</value>
+  </data>
+  <data name="&gt;&gt;ANT8.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="配置ToolStripMenuItem.Text" xml:space="preserve">
+    <value>配置(&amp;O)</value>
+  </data>
+  <data name="clm_ANT16.HeaderText" xml:space="preserve">
+    <value>ANT16</value>
+  </data>
+  <data name="cms_tsmi_WriteEpc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="&gt;&gt;led_Tag_Count.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="tsddm_tsmi_EPC.Text" xml:space="preserve">
+    <value>EPC</value>
+  </data>
+  <data name="rb_6c.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_6c.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 16</value>
+  </data>
+  <data name="ANT1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="tsddm_tsmi_ANT4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;ANT6.Name" xml:space="preserve">
+    <value>ANT6</value>
+  </data>
+  <data name="&gt;&gt;clm_ReadTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_ANT18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;clm_TagType.Name" xml:space="preserve">
+    <value>clm_TagType</value>
+  </data>
+  <data name="&gt;&gt;ANT13.Name" xml:space="preserve">
+    <value>ANT13</value>
+  </data>
+  <data name="clm_ANT10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsddm_tsmi_ANT24.Text" xml:space="preserve">
+    <value>ANT24</value>
+  </data>
+  <data name="&gt;&gt;tsb_Read_Global.Name" xml:space="preserve">
+    <value>tsb_Read_Global</value>
+  </data>
+  <data name="tsddm_tsmi_TID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Connect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_TID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT19.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT19</value>
+  </data>
+  <data name="&gt;&gt;ANT8.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="clm_ANT6.HeaderText" xml:space="preserve">
+    <value>ANT6</value>
+  </data>
+  <data name="gb_ReadControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 298</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 45</value>
+  </data>
+  <data name="tb_DebugMsg.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tssl_NowConnID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="&gt;&gt;clm_UserData.Name" xml:space="preserve">
+    <value>clm_UserData</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_EPCData.Name" xml:space="preserve">
+    <value>tsddm_tsmi_EPCData</value>
+  </data>
+  <data name="clm_EMTemp.HeaderText" xml:space="preserve">
+    <value>EMTemp</value>
+  </data>
+  <data name="tssl_TotalCountName.Text" xml:space="preserve">
+    <value>连接总数：</value>
+  </data>
+  <data name="tsddm_tsmi_ANT12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="ANT10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tsmi_Language_EN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT15.Name" xml:space="preserve">
+    <value>clm_ANT15</value>
+  </data>
+  <data name="&gt;&gt;cmsForGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_ANT15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="tsddm_tsmi_EPC.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ANT16.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tsddm_tsmi_RFTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="clm_ANT1.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="ANT19.Text" xml:space="preserve">
+    <value>天线19</value>
+  </data>
+  <data name="btn_GPI_0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 183</value>
+  </data>
+  <data name="&gt;&gt;tb_DebugMsg.Parent" xml:space="preserve">
+    <value>panel_Debug</value>
+  </data>
+  <data name="clm_ANT5.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;tmsi_SerialConn.Name" xml:space="preserve">
+    <value>tmsi_SerialConn</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT12.Name" xml:space="preserve">
+    <value>clm_ANT12</value>
+  </data>
+  <data name="clm_ANT11.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;ANT9.Name" xml:space="preserve">
+    <value>ANT9</value>
+  </data>
+  <data name="&gt;&gt;tsb_Write_EPC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_TotalCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_While.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQRadioButton, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;clm_RFTemp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsmi_Language_CN.Text" xml:space="preserve">
+    <value>中文(简体)</value>
+  </data>
+  <data name="clm_TotalCount.HeaderText" xml:space="preserve">
+    <value>TotalCount</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT19.Name" xml:space="preserve">
+    <value>clm_ANT19</value>
+  </data>
+  <data name="ANT5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 37</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pc_Processor.Type" xml:space="preserve">
+    <value>System.Diagnostics.PerformanceCounter, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT14.Name" xml:space="preserve">
+    <value>clm_ANT14</value>
+  </data>
+  <data name="clm_EPCData.HeaderText" xml:space="preserve">
+    <value>EPCData</value>
+  </data>
+  <data name="tsddm_tsmi_ANT20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;ANT19.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 26, 3, 3</value>
+  </data>
+  <data name="clm_TID.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="clm_EPCData.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 15</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="ANT15.Text" xml:space="preserve">
+    <value>天线15</value>
+  </data>
+  <data name="clm_ANT22.HeaderText" xml:space="preserve">
+    <value>ANT22</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_RFTemp.Name" xml:space="preserve">
+    <value>tsddm_tsmi_RFTemp</value>
+  </data>
+  <data name="ANT2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;rb_6c.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;clm_G2V2Challenge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel_MiddleRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1174, 0</value>
+  </data>
+  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1454, 25</value>
+  </data>
+  <data name="tsmi_Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="clm_ANT9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tssl_CacheSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tsddb_SelectColumn.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_0.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.RoundButton, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>3, 789</value>
+  </data>
+  <data name="tsddm_tsmi_ANT13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="clm_ANT21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_EPC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_ANT8.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT12.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT12</value>
+  </data>
+  <data name="tsmi_Connect.Text" xml:space="preserve">
+    <value>连接读写器(&amp;C)</value>
+  </data>
+  <data name="dgv_Tags.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ANT3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 15</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="tsb_Write_EPC.Text" xml:space="preserve">
+    <value>写EPC</value>
+  </data>
+  <data name="&gt;&gt;clm_TagType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;led_Tag_Count.Name" xml:space="preserve">
+    <value>led_Tag_Count</value>
+  </data>
+  <data name="&gt;&gt;tsmi_TCPClient.Name" xml:space="preserve">
+    <value>tsmi_TCPClient</value>
+  </data>
+  <data name="&gt;&gt;ANT5.Name" xml:space="preserve">
+    <value>ANT5</value>
+  </data>
+  <data name="&gt;&gt;gb_ReadType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT16.Name" xml:space="preserve">
+    <value>clm_ANT16</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA
+        AAD+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+/////v////7//f7+//D5/v/u+P7/9/z+/////v////7///7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7////+/////v/r+P7/kdj6/0K8+P8yt/f/MLb3/zm59/9uzPn/0e79////
+        /v////7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7////+//n9/v+Y2/v/LLT3/xCr9v8VrPb/GK32/xit
+        9v8Xrfb/EKr2/xyv9v9pyvn/4vT9/////v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7////+/+r4/f9YxPj/Dan2/xit
+        9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8brvb/Dqr2/zC29//G6/z////+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7////+/9Du
+        /f85uff/EKv2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8VrPb/G672/6vh
+        +/////7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7////+/8ns/f8rtPf/Eqv2/x6v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v
+        9v8dr/b/Ha/2/xit9v8Xrfb/pt/7/////v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7////+/8Hp/P8hsPf/Faz2/x6v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v
+        9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/GK72/xat9v+x5Pv////+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v//////////////////////////////////////////////////////////////
+        ///////////////////////////////////+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7////+/8Tq/P8lsvf/Faz2/x2v9v8dr/b/Ha/2/x2v
+        9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/HbD2/x2w9v8Xrvb/HrL2/8Dp
+        /P////7//v7+//7+/v/+/v7//v7+//7+/v//////3L2Y/8ydZv/Po2//0KRu/9Glbv/Rpm7/0qdu/9Ko
+        bv/TqG7/1Kpu/9Wrbv/WrG7/1qxu/9etbv/Yrm7/2K9u/9iuaf/fvoX//v39///////+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7////+/8vs/f8isff/Faz2/x6v
+        9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8dsPb/HbD2/x2w
+        9v8csfb/HLH2/xSv9v8qt/f/4fT9/////v/+/v7//v7+//7+/v/+/v7//////+nVvv+tYAf/rmMI/7Bm
+        Cv+xZwr/smkK/7RqCv+1bAr/tm4K/7dvCv+4cQr/uXMK/7p0Cv+7dgr/vXcK/755Cv+9dgH/ypEw//79
+        /P///////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7////+/9Hv
+        /f8rtPf/Faz2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2v9v8dr/b/Ha/2/x2w
+        9v8dsPb/HbD2/xyx9v8csfb/HLL2/xyy9v8csvb/Ea/2/0jC+P/1/P7////+//7+/v/+/v7//v7+//7/
+        ////////xpBR/7BmDf+1bxf/tnAX/7dyF/+4cxf/uXUX/7t3F/+7eBf/vXoX/757F/+/fRf/wH4X/8GA
+        F//CgRf/wX4O/86YO//+/fz//v////7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7////+/8rs/P8isfb/Bqf1/xGr9v8Sq/b/FKz2/xat9v8arvb/HK/2/x2v9v8dr/b/Ha/2/x2v
+        9v8dr/b/HbD2/x2w9v8dsPb/HLH2/xyx9v8csfb/HLL2/xyy9v8cs/b/G7P2/xuz9v8Mr/b/d9L6////
+        /v/+/v7//v7+//7+/v/+/v7//////+rWvv+xaA3/tW8X/7dxF/+4chf/uXQX/7p2F/+7dxf/vHkX/716
+        F/++fBf/v30X/8B/F//BgBf/woIW/8J/Dv/OmDv//v38//7////+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+/////v+55vz/h9T6/33R+f9qyvn/Xsb5/1DB+P8/u/f/KLP2/xWs
+        9v8Pqvb/EKr2/xOs9v8arvb/HbD2/x2w9v8dsfb/HLH2/xyx9v8csvb/HLL2/xyz9v8cs/b/G7P2/xu0
+        9v8btPb/GbT2/xKy9v+u5Pz////+//7+/v/+/v7//v7+///////9+/n/w4pD/7RrDv+3chf/uHMX/7l1
+        F/+7dxf/u3gX/715F/++exf/v30X/8B+F//BgBf/woEW/8OCFv/CgA7/zpk7//79/P/+/////v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7////+/////v////7////+////
+        /v////7/+/3+/+X2/f+/6Pz/m9v7/3/S+v9Uw/j/JbP2/xCs9v8PrPb/Fa/2/xux9v8csvb/HLP2/xyz
+        9v8bs/b/G7T2/xu09v8btfb/G7X2/xu19v8UtPb/I7n3/9zz/f////7//v7+//7+/v/+/v7//////+bP
+        sv+zagv/uHMX/7l0F/+6dhf/u3gX/7x5F/+9exf/v3wX/8B+F//Bfxf/woEX/8OCFv/EhBb/w4EO/8+a
+        O//+/fz//v////7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v///v7///7+/////v////7////+/////v////7////+/+H0/f+p4fv/fNL6/0C+
+        9/8WsPb/D672/xax9v8bs/b/G7T2/xu09v8btfb/G7X2/xq29v8atvf/Grb3/w2z9/9ay/n//f7+///+
+        /v/+/v7//v7+///////69vH/wIIx/7dwEf+6dRf/u3cX/7x4F/+9ehf/vnsX/799F//Afhf/wYAX/8KB
+        Fv/Dgxb/xIQW/8SCDv/Qmjv//v38//7////+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/////////////////+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+///+
+        /v////7////+/////v/3/P7/yOz8/4fX+v8tuvf/D7D2/xKy9v8Ztfb/Grb2/xq29/8atvf/Grf3/xq3
+        9/8Zt/f/C7P3/5rg+/////7//v7+//7+/v/+/v7//////9q2hv+0awj/u3YX/7t4F/+8eRf/vXoX/758
+        F//Afhf/wX8X/8KBF//Dghb/xIQW/8WFFv/Fgw7/0Js7//79/P/+/////v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//Pr4//r39P//////////////////////////////
+        /////////v7+//7+/v/+/v7//v7+//7+/v/+/v7////+/////v////7/6/j9/6zk+/9JxPj/FLT2/xCz
+        9/8atvf/Grf3/xq39/8ZuPf/Gbj3/xO39/8ovfj/4/b9/////v/+/v7//v7+///////x49D/uXUW/7p2
+        Ff+8eRf/vXoX/757F/+/fRf/wH8X/8GAF//Cghb/w4MW/8WFFv/Ghhb/xYQO/9CcO//+/fz//v////7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//////+HIt/+lWij/sXJH/8GO
+        bP/SrpX/5M6///Hm3v/38u7//v7+///////////////////////+/v///v7+//7+/v/+/v7//v7+////
+        /v////7//v7+/73q/P9FxPn/D7T3/xK29/8ZuPf/Gbj3/xm59/8Zuff/CbX3/3TV+v////7//v7+//7+
+        /v/+/v///////9CgXf+4cQz/vXkX/717F/+/fBf/wH4X/8GAF//CgRf/w4IW/8SEFv/FhRb/xocW/8aF
+        Dv/RnDv//v38//7////+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+////
+        ///dwq7/lkAH/5lGDv+XQwr/l0IJ/5pIEP+gUh3/pVwq/69tQf/ElHP/272n/+fUxv/27+r/////////
+        /////////v////7+/v/+/v7//v7+/////v////7//P7+/6Hi+/8wwPj/C7X3/xi59/8Zuvf/GLr3/xa6
+        9/8Ruff/x+78/////v/+/v7//v7+///////kyqX/uHAJ/716F/++exf/v30X/8B+F//BgBf/woIW/8OD
+        Fv/FhRb/xoYW/8eHFv/GhQ7/0Z07//79/P/+/////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v//////3sOw/5lFDf+dTRf/nU0X/51NF/+dTBb/nEsU/5tJEv+ZRw//mEUK/5pH
+        Cv+eTRH/qF8n/7+LYP/cvqb/7t/T//////////////////7+/v/+/v7//v7+/////v////7/6vj9/2HP
+        +f8Ot/f/FLn3/xi79/8Yu/f/DLj3/1nP+f/+/v7//v7+//7+/v//////9/Dm/8GCJf+8eRP/v3wX/8B+
+        F//Bfxf/woEX/8OCFv/EhBb/xYUW/8aHFv/HiBb/x4YO/9KeO//+/fz//v////7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//////97DsP+ZRQ3/nU0X/51NF/+dTRf/nU0X/51N
+        F/+dTRf/nk4X/59QF/+gURf/oVIW/6BRE/+eTQv/n00K/6VYFv+9hFH/17WV//jz7v////////////7+
+        /v/+/v7//v7+/////v////7/m+H7/xW69/8Ruvf/GLz3/xa89/8Ru/f/yu/9/////v/+/v7//v7/////
+        ///QoVv/u3UL/8B+F//Afxf/woAX/8OCFv/EhBb/xYUW/8aHFv/HiBb/yIkW/8iIDv/Tnzv//v38//7/
+        ///+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+///////ew7D/mUUN/51N
+        F/+dTRf/nU0X/51NF/+dTRf/nU0X/55PF/+fUBf/oFIX/6JTF/+jVRf/pFYX/6VYF/+lWBX/o1QM/6JS
+        B/+zcDH/1rKQ//r28v///////v////7+/v/+/v7///7+/////v+56vz/H7/4/w+69/8Yvfj/DLr4/1bQ
+        +v/9/v7///7+//7+/v//////4sSX/7t1Cf/Afhf/wX8X/8KBFv/Dgxb/xIQW/8WGFv/Hhxb/x4kW/8mK
+        Fv/IiA7/06A7//79/P/+/////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v//////3sOw/5lFDf+dTRf/nU0X/51NF/+dTRf/nU0X/51OF/+fUBf/oFEX/6FTF/+iVBf/o1YX/6RX
+        F/+lWRf/p1oX/6hcF/+pXhf/qFoQ/6ZXCP+1czD/4ces/////////////v7+//7+/v/+/v7////+/8fv
+        /f8gwPj/ELz4/xW++P8Tvvj/1fP9/////v/+/v7///////fw5P/ChCL/v30U/8KAF//Dghb/xIQW/8WF
+        Fv/Ghxb/x4gW/8iJFv/Jixb/yYkO/9SgO//+/fz//v////7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//////97DsP+ZRQ3/nU0X/51NF/+dTRf/nU0X/51NF/+eTxf/oFEX/6FS
+        F/+iVBf/o1UX/6RXF/+lWBf/ploX/6dbF/+oXRf/qV4X/6pgF/+sYhf/qV0O/6tgD//MnWv/+vbx////
+        ///+/v7//v7+//7+/v////7/vuz8/xa++P8Svvj/Cbz4/3XZ+/////7//v7+//7/////////0J5Q/756
+        Df/CgRb/w4MW/8WFFv/Ghhb/x4cW/8iJFv/Jihb/yowW/8mKDv/UoTv//v38//7////+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+///////ew7D/mUUN/51NF/+dTRf/nU0X/51N
+        F/+eThf/n1AX/6BRF/+hUxf/olUX/6NWF/+kVxf/pVkX/6dbF/+oXBf/qV4X/6pfF/+rYRf/rGIX/61k
+        F/+tZBX/ql0I/72BPf/z6Nz///////7+/v/+/v7//v7+/////v+Y4/v/C734/w6++P8zyPn/+f3+////
+        /v/+/v7//////9u1eP++eQn/w4IW/8SEFv/FhRb/xocW/8eIFv/Iihb/yowW/8qNFv/Kiw7/1aI7//79
+        /P/+/////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v//////3sOw/5lF
+        Df+dTRf/nU0X/51NF/+dThf/nk8X/59RF/+hUhf/olQX/6NVF/+kVxf/pVgX/6ZaF/+nXBf/qF0X/6lf
+        F/+rYBf/rGIX/61jF/+uZRf/r2YX/7BoF/+tYgv/uXgt//Hl1v///////v7+//7+/v///v7////+/2fW
+        +v8Hvfj/DL/4/7Tr/P////7//v7+///////s2bn/wH0O/8ODFf/FhRb/xoYW/8eIFv/IiRb/yYsW/8qM
+        Fv/Ljhb/y4wO/9WiO//+/fz//v////7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//////97DsP+ZRQ3/nU0X/51NF/+dTRf/nk4X/59QF/+gURf/oVMX/6JVF/+jVhf/pFcX/6VZ
+        F/+nWxf/qFwX/6leF/+qXxf/q2EX/6xiF/+tZBf/rmUX/69nF/+waBf/smoY/69lDP+7eyz/9ezh////
+        ///+/v7//v7+/////v/m+P7/IMT4/wO9+P9g1fr////+//7+/v//////+fLo/8aJIv/DghP/xYUW/8aH
+        Fv/HiBb/yIoW/8qLFv/KjRb/zI4W/8uMDv/Vozv//v38//7////+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+///////ew7D/mUUN/51NF/+dTRf/nU4X/59QF/+gURf/oVMX/6JU
+        F/+jVhf/pFcX/6VZF/+nWhf/p1wX/6hdF/+pXxf/q2AX/6xiF/+tYxf/rmUX/69mF/+waBf/sWoX/7Jr
+        F/+zbRj/sGYK/8WNR//9+/n///////7+/v/+/v7////+/5Lj+/8Dvvf/Nsv5//r9/v////7///////38
+        +f/MlTf/w4EP/8aGFv/HiBb/yIkW/8mLFv/KjRb/y44W/8yPFv/Mjg7/1qQ7//79/P/+/////v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v//////3sOw/5lFDf+dTRf/nU0X/55P
+        F/+fUBf/oFIX/6FTF/+jVRf/pFYX/6RYF/+mWRf/p1sX/6hcF/+pXhf/ql8X/6thF/+sYxf/rWQX/65l
+        F/+vZxf/sWkX/7JqF/+zbBf/tG0X/7VvF/+yZwj/1q98///////+/v7//v7+/////v/2/P7/Kcn5/w/C
+        +P/S8/3////+//7/////////1adX/8OAC//Ghxb/x4kW/8mKFv/KjBb/y40W/8yPFv/NkBb/zY4O/9ek
+        O//+/fz//v////7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//////97D
+        sP+ZRQ3/nU0X/51OF/+fUBf/oFEX/6FTF/+iVBf/o1YX/6RXF/+lWRf/p1oX/6dcF/+oXRf/qV8X/6tg
+        F/+sYhf/rWMX/65lF/+vZhf/sGgX/7FqF/+yaxf/s2wX/7VuF/+2bxf/tm8U/7dvEv/u3sj///////7+
+        /v/+/v7////+/4bg+/8Avvj/mOX8/////v/+/v7//////+LCiv/Cfwj/x4gW/8iJFv/Jixb/yowW/8uO
+        Fv/MkBb/zZEW/82PDv/XpTv//v38//7////+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+///////ew7D/mUUN/51NF/+eTxf/n1AX/6BSF/+hUxf/olUX/6RXF/+lWBf/plkX/6db
+        F/+oXRf/qV4X/6pgF/+sYRf/rGMX/61kF/+vZhf/sGcX/7FpF/+yahf/s2wX/7RtF/+1bxf/tnAX/7hy
+        F/+0awr/zZxZ///////+/v7//v7+/////v/T9P3/BMH5/3je+/////7//v7+///////s2bX/xIIM/8eI
+        Fv/Jihb/yowW/8uNFv/Mjxb/zZAW/86SFv/OkA7/2KY7//79/P/+/////v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v//////3sKw/5lFDf+eThf/n1AX/6BRF/+hUxf/olUX/6NW
+        F/+kVxf/pVkX/6dbF/+oXBf/qV0X/6lfF/+rYBf/rGIX/61kF/+uZRf/r2cX/7BoF/+xahf/smsX/7Rs
+        F/+1bhf/tnAX/7dxF/+4cxf/uXQW/7hxD//r2L3///////7+/v////7/+f3+/y3M+v9b1/v////+//7+
+        /v//////9erX/8iJGP/IiBT/yosW/8qNFv/Mjhb/zJAW/86RFv/Pkxb/zpEO/9imO//+/fz//v////7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//////93CsP+ZRg3/nk8X/59R
+        F/+hUhf/olQX/6NVF/+kVxf/pVgX/6ZaF/+nWxf/qF0X/6leF/+qYBf/q2IX/61jF/+uZRf/r2YX/7Bo
+        F/+xaRf/smoX/7NsF/+0bhf/tW8X/7ZxF/+4chf/uHMX/7p1F/+3bwn/1Kls///////+/v7//v7+////
+        /v963/v/PNH6/////v///v7///////ny5//LjyL/yIkT/8qMFv/Ljhb/zI8W/82RFv/Okhb/z5QW/8+S
+        Dv/Zpzv//v38//7////+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+////
+        ///dwrD/mUcN/59PF/+gURf/oVMX/6JUF/+jVhf/pFcX/6VZF/+nWxf/p1wX/6ldF/+pXxf/q2EX/6xj
+        F/+tYxf/rmUX/69nF/+waBf/sWoX/7JrF/+zbBf/tW4X/7ZwF/+3cRf/uHMX/7l0F/+6dhf/unUS/8KE
+        Kv/58+v///////7+/v////7/te38/yzO+v/5/f7////+///////69u7/zZQq/8iJEf/KjRb/zI4W/8yQ
+        Fv/OkRb/z5MW/9CUFv/Pkg7/2ag7//79/P/+/////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v//////3sOw/5pHDf+fUBf/oVIX/6JUF/+jVRf/pFcX/6VYF/+mWhf/p1sX/6hd
+        F/+pXhf/qmAX/6tiF/+tYxf/rmUX/69mF/+waBf/sWkX/7JqF/+zbBf/tG4X/7VvF/+2cRf/uHIX/7hz
+        F/+6dRf/u3cX/7x4F/+6dA3/69i7///////+/v7////+/83z/f8rzvr/8vv+/////v//////+/jy/8+Y
+        MP/JiRD/y40W/8yPFv/NkBb/zpIW/8+UFv/QlRb/0JMO/9qpO//+/fz//v////7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//////97DsP+bSQ3/oFEX/6FTF/+iVRf/o1YX/6RX
+        F/+lWRf/p1sX/6hdF/+pXhf/ql8X/6thF/+sYhf/rWQX/65lF/+vZxf/sGgX/7JqF/+ybBf/tG0X/7Vu
+        F/+2cBf/t3EX/7hzF/+5dBf/unYX/7t4F/+9eRf/unMJ/+LFmP///////v7+/////v/f9/3/NNH6//D7
+        /v////7///////z59f/RmjP/yYoQ/8yPFv/NkBb/zpEW/8+TFv/QlRb/0ZYW/9GUDv/aqTv//v38//7/
+        ///+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+///////exLD/m0kN/6FS
+        F/+iVBf/o1UX/6RXF/+lWBf/ploX/6dcF/+pXRf/qV8X/6pgF/+sYhf/rWMX/65lF/+vZhf/sGgX/7Fq
+        F/+yaxf/s2wX/7RuF/+1bxf/t3EX/7hzF/+5dBf/unYX/7t3F/+8eRf/vXoX/7p0Cv/XrW3///////7+
+        /v////7/7Pr+/07X+v/y/P7////+///////8+vX/0Zs0/8qLEP/Mjxb/zZEW/8+TFv/PlBb/0ZUW/9GX
+        Fv/Rlg7/26o7//79/P/+/////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v//////3sSw/51KDf+hUxf/olUX/6RWF/+kWBf/plkX/6dbF/+oXRf/qV4X/6pfF/+sYRf/rGMX/61k
+        F/+vZRf/sGcX/7FpF/+yahf/s2wX/7RtF/+1bxf/tnAX/7dxF/+4cxf/uXUX/7t2F/+7eBf/vXkX/757
+        F/+8dw3/z5xM///////+//////7+//T8/v9x4Pv/+f3+///+/v//////+/nz/9GbMv/KjBD/zZAW/86S
+        Fv/Pkxb/0JUW/9GWFv/SmBb/0pYO/9urO//+/fz//v////7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//////97EsP+dSw3/olQX/6NWF/+kVxf/pVkX/6ZaF/+nXBf/qV0X/6lf
+        F/+rYBf/rGIX/61jF/+uZRf/r2cX/7BoF/+xahf/smsX/7NsF/+0bhf/tnAX/7dxF/+4cxf/uXQX/7p2
+        F/+7dxf/vHkX/716F/++fBf/vnkP/8uUPv/9/fz////////+/v/1/P7/k+f8/////v/+/v7///////v3
+        7//QmSz/y40R/86RFv/Pkxb/0JQW/9GWFv/Slxb/05kW/9OXDv/crDv//v38//7////+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+///////fxbD/nkwN/6NVF/+kVxf/pVgX/6Za
+        F/+nWxf/qF0X/6leF/+qYBf/q2EX/6xjF/+tZBf/rmYX/7BnF/+xaRf/smoX/7NsF/+0bRf/tW8X/7Zw
+        F/+4chf/uHMX/7p1F/+7dxf/vHgX/716F/++exf/v30X/756EP/LlD3//fz7/////////v7/8vz+/6/t
+        /f////7//v7+///////59Oj/z5Yj/8yPEv/Okhb/z5QW/9CVFv/Rlxb/0pgW/9SaFv/TmA7/3Kw7//79
+        /P/+/////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v//////38Ww/55N
+        Df+jVRf/pFcX/6ZZF/+mWhf/p1wX/6hdF/+pXxf/q2AX/6xiF/+tYxf/rmUX/69mF/+waBf/sWoX/7Jr
+        F/+zbBf/tG4X/7VvF/+3cRf/uHMX/7l0F/+7dhf/u3cX/715F/+9ehf/v3wX/8B9F/++eg7/z5xK////
+        ///+//////7+//X8/v/g+P7////+//7+/v//////9erT/8yQFv/NkBT/z5MW/9CUFv/Rlhb/0pcW/9OZ
+        Fv/Umhb/1JkO/92tO//+/fz//v////7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//////9/FsP+fTQ3/pFYX/6VYF/+mWhf/p1sX/6hdF/+pXhf/qmAX/6thF/+sYxf/rWQX/65m
+        F/+wZxf/sWkX/7JqF/+zbBf/tG0X/7VvF/+2cBf/t3IX/7hzF/+6dRf/u3cX/7x4F/+9ehf/vnsX/799
+        F//Afxf/vnkL/9esZv///////v7+//7+/v///v7////+//7+/v/+/v7//////+vVp//Kigr/zpIW/8+U
+        Fv/QlRb/0ZcW/9KYFv/Umhb/1ZsW/9SZDv/drTv//v38//7////+/v7//v7+//7+/v/+/v7//v////7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+///////gxbD/oE8N/6RXF/+mWRf/p1sX/6hcF/+pXhf/ql8X/6th
+        F/+sYxf/rWQX/65lF/+vZxf/sGgX/7JqF/+zbBf/tG0X/7VvF/+2cBf/t3EX/7hzF/+5dRf/u3YX/7t4
+        F/+9eRf/vXsX/798F//Afhf/wX8X/755CP/jxpT///////7+/v/+/v7//v7+//7+/v/+/v7//v7+////
+        ///etmb/y4sK/8+TFv/QlRb/0ZYW/9KYFv/TmRb/1JsW/9WcFv/Vmw7/3q47//79/P/+/////v7+//7+
+        /v/+/v7//v7+///////+/v7//v7+//7+/v/+/v7//v7+//7+/v//////4MWw/6BPDf+lWBf/ploX/6db
+        F/+oXRf/qV4X/6pgF/+sYhf/rGMX/65lF/+vZhf/sGgX/7FpF/+yaxf/s2wX/7RuF/+2bxf/tnEX/7dy
+        F/+4cxf/unUX/7t3F/+8eBf/vXoX/757F/+/fRf/wH4X/8GAF//AfAz/7dq5///////+/v7//v7+//7+
+        /v/+/v7//v7+///////+/Pr/1KA2/82PD//PlBb/0ZUW/9GXFv/TmBb/1JoW/9WbFv/WnRb/1psO/96v
+        O//+/fz//v////7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//////+DG
+        sP+gUA3/plkX/6dbF/+oXRf/qV4X/6pgF/+rYRf/rGMX/65lGf+tZBT/r2cX/7BoF/+yahf/smwX/7Rt
+        F/+1bhf/tnAX/7dxF/+4cxf/uXUX/7p3F/+7eBf/vXoX/717F/+/fRf/wH4X/8GAF//AfhH/yY4s//r2
+        7v///////v7+//7+/v/+/v7//v7+//7+/v//////9enS/86SFv/OkxX/0JUW/9GXFv/SmBb/1JoW/9Sb
+        Fv/VnBb/1p4W/9ecDv/fsDv//v38//7////+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+///////gxrD/oVEN/6ZaF/+nXBf/qF0X/6lfF/+qYBf/rGIX/6xhFP+2dC7/uns3/65j
+        D/+xaRf/smsX/7NsF/+0bhf/tm8X/7dxF/+4chf/uHQX/7p2F/+7dxf/vHgX/716F/++fBf/v30X/8B/
+        F//BgBf/vnkG/9y3eP///////v7+//7+/v/+/v7//v7+//7+/v/+/v7//////+K/ef/MjAj/z5QW/9GV
+        Fv/Slxb/05kW/9SaFv/VnBb/1p0W/9eeFv/XnQ7/37A7//79/P/+/////v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v//////4Maw/6JSDf+nWxf/qF0X/6leF/+qXxf/q2EX/6xj
+        F/+tZBf/rWMU/8+kdf/Cikr/rWEJ/7NsF/+0bRf/tW8X/7ZwF/+3chf/uHMX/7l1F/+7dxf/vHgX/7x6
+        F/++exf/v30X/8B+F//Bfxf/wX4R/8aIIP/27Nz///////7+/v/+/v7//v7+//7+/v/+/v7///////v3
+        7v/TnS3/zpER/9CVFv/Rlhb/0pgW/9SaFv/Vmxb/1pwW/9eeFv/Ynxb/2J4O/+CxO//+/fz//v////7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//////+DHsP+jUw3/qFwX/6le
+        F/+qXxf/qmAX/6xiF/+sZBf/rmUX/65lFP+xahr/38Kh/8ydZf+uYwj/s2wU/7ZwF/+3cRf/uHMX/7l0
+        F/+6dhf/u3gX/7x5F/+9ehf/v3wX/8B+F//Bfxf/wYAW/796B//lyZr///////7+/v/+/v7//v7+//7+
+        /v/+/v7//v7////////jwHr/zIwH/9CVFv/Rlhb/0ZcW/9OZFv/Umxb/1ZwW/9aeFv/Ynhb/2aEW/9me
+        Dv/gsjv//v38//7////+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+////
+        ///hx7D/o1QN/6hcF/+pXhf/ql8X/6thF/+sYxf/rWQX/65mF/+waBf/r2UQ/7h2Kf/x49T/2reM/7Rt
+        FP+zaQz/uHIX/7hzF/+5dRf/u3YX/7x4F/+9ehf/vnsX/798F//Afhf/wX8W/754Bv/YrWb///////7/
+        ///+/v7//v7+//7+/v/+/v7//v7+///////16tP/z5Qa/86SE//QlRb/0ZYW/9KYFv/Umhb/1ZsW/9ac
+        Fv/Xnhb/2KAW/9mhFv/ZoA7/4bI7//79/P/+/////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v//////4cew/6RVDf+pXRf/ql8X/6thF/+sYhf/rWQX/65lF/+vZxf/sGgX/7Fq
+        GP+wZg7/uXgo//Po2v/w4c7/yJJN/7RqCP+2bgz/unQU/7t3Fv+8eRf/vXoX/798F/+/fRX/vnoO/755
+        CP/ctnb//v38///////+/v7//v7+//7+/v/+/v7//v7+///////79uz/1qQ9/82ODP/QlRb/0ZYW/9KX
+        Fv/TmRb/1JsW/9WcFv/Wnhb/2J8W/9mhFv/aohb/2qEO/+GzO//+/fz//v////7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//////+HIsP+lVQ3/qV4X/6pgF/+sYRf/rGMX/65l
+        F/+vZhf/sGcX/7FpF/+yahf/s20Y/7FoDv+5diL/7dzG///////mzq3/zJlU/7x6HP+6dBD/uXIK/7p0
+        Cf+8dwz/wH0V/8yXQv/p063////////////+/v7//v7+//7+/v/+/v7//v7+///////9+/b/265V/8uM
+        CP/PlBf/0ZUW/9GXFv/TmBb/1JoW/9WcFv/WnRb/154W/9igFv/ZoRb/2qMW/9qhDv/itDv//v38//7/
+        ///+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+///////hyLD/pVcN/6pf
+        F/+rYRf/rGMX/61kF/+uZRf/r2cX/7BpF/+xahf/smwX/7RtF/+1bhf/tnEZ/7l0G//cu4//////////
+        ///17eD/7dvB/+PIn//hxJb/6dKv//Pn1P/9/Pr///////7////+/v7//v7+//7+/v/+/v7//v7/////
+        ///79uz/2atQ/8uLCf/Pkxb/0JUW/9GWFv/Slxb/05kW/9SaFv/VnBb/1p4W/9ifFv/ZoRb/2qIW/9uj
+        Fv/bog7/47U7//7+/P/+/////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v//////4siw/6VYDf+rYBf/rGIX/6xjF/+uZRf/r2YX/7BoF/+xahf/smsX/7NsF/+0bhf/s2sQ/8SL
+        Qv/nz7D/uXUa/8mUSv/w4s3///////////////////////////////////////7+/v/+/v7//v7+//7+
+        /v/+///////////////y4sT/1KA5/8uLCf/Pkxb/0JQW/9GVFv/Rlxb/05kW/9SaFv/VnBb/1p0W/9ee
+        Fv/YoBb/2aEW/9ujFv/bpRb/3KMO/+O2O//+/fz//v////7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//////+LIsP+mWA3/q2EX/6xjF/+tZBf/rmUX/69nF/+waBf/smoX/7Ns
+        F/+0bRf/tW4X/7RtEv++fiv//v7+//Pn2P/FjDz/uHEM/9ChXP/u3sT//Pr2////////////////////
+        //////////////////////////////ft2v/hvXf/yosQ/8uMDv/Okhb/z5MW/9CVFv/Rlhb/0pgW/9OZ
+        Fv/Umxb/1ZwW/9eeFv/Ynxb/2aEW/9qiFv/bpBb/3KUW/9ykDv/jtjv//v78//7////+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+///////iybD/p1kN/6xiF/+tZBf/rmUX/69n
+        F/+waBf/sWoX/7JrF/+0bRf/tW4X/7ZwF/+2cRf/tWwM/+PIpP///////////+nTtP/QoVv/xIcq/8WJ
+        LP/Yr27/5MeY/+vWs//v3sD/8N/D/+7buf/q06j/5MWM/9eoUP/Ljhn/yYgL/8yPFP/OkRb/z5MW/9CU
+        Fv/Rlhb/0pcW/9OZFv/Umhb/1ZwW/9adFv/Ynxb/2aEW/9miFv/boxb/26UW/92mFv/dpQ7/5Lc7//79
+        /P/+/////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v//////4smw/6ha
+        Df+sYhf/rWQX/65lF/+vZxf/sWkX/7JqF/+zbBf/tG0X/7VuF/+2cBf/t3IX/7ZwEf/AgSz/8ubV////
+        //////////////r17v/nz6n/1qtn/8mOL/+9dgD/wX0I/8SCEP/Eggz/xYMK/8aDCP/Ihwz/yowU/8yP
+        Fv/NkBb/zpIW/8+TFv/QlRb/0ZcW/9KYFv/Umhb/1ZsW/9acFv/Wnhb/2KAW/9mhFv/aoxb/26QW/9yl
+        Fv/dpxb/3aYO/+W4O//+/fz//v////7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//////+DGrP+jUwD/qVsK/6pdCv+rXgr/rGAK/61iCv+uYwr/sGUK/7FnCv+yaAr/s2kK/7Rr
+        Cv+1bQv/tGkA/758H//ly6X//fv4///////////////////////9+vb/5cmZ/8mOJ//CfQT/xIEJ/8WD
+        Cf/HhQn/yIYJ/8mICf/Kign/y4sJ/8yNCf/Njwn/z5AJ/9CSCf/RlAn/0pUJ/9OXCf/UmAn/1ZkJ/9ec
+        Cf/YnQn/2Z4J/9qgCf/bogn/3KMJ/9yiAf/ktTD//v38//7////+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+///////s3Mz/yJdk/8uca//LnWv/zJ5r/82fa//NoGv/zqFr/8+i
+        a//Qo2v/0KRr/9Gla//RpWv/0qdr/9Ooa//SpWX/0qVi/9ivc//gwI7/+PHm////////////////////
+        ///06dX/27Jr/9uyaf/ctGr/3bVq/962av/et2r/37hq/+C5av/gumr/4btq/+G8av/ivWr/475q/+S/
+        av/kwGr/5cFq/+bCav/nw2r/58Rq/+jFav/oxmr/6cdq/+rIav/qx2X/7tKC//7+/f/+/////v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7/////////////////////////
+        ///////////////////////////////////////////////////////////////////69e7/586o/925
+        f//duH3/8eHI//7+/v//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7////////////+////8+bS/+HAif/Xq2D/8eHF/////////////v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7/////////////9uzc/965eP/hv4L//fz5////
+        ///+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+////
+        ////////5sqX/964cv/9/Pj//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v/////////nypX/9u7c///////+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v////////37+P/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        ///+/v///v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="tsb_Read_Epc.Text" xml:space="preserve">
+    <value>读EPC</value>
+  </data>
+  <data name="clm_ANT7.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;tsmi_ClearCacheTag.Name" xml:space="preserve">
+    <value>tsmi_ClearCacheTag</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT22.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT22</value>
+  </data>
+  <data name="&gt;&gt;配置ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmi_AdvancedSettings.Name" xml:space="preserve">
+    <value>tsmi_AdvancedSettings</value>
+  </data>
+  <data name="&gt;&gt;ANT10.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;clm_Phase.Name" xml:space="preserve">
+    <value>clm_Phase</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="panel_MiddleRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 789</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_RSSI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_ANT14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT3.Name" xml:space="preserve">
+    <value>clm_ANT3</value>
+  </data>
+  <data name="tsddm_tsmi_ANT6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;tsb_Read_EPCTID.Name" xml:space="preserve">
+    <value>tsb_Read_EPCTID</value>
+  </data>
+  <data name="ANT13.Text" xml:space="preserve">
+    <value>天线13</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;tsb_Stop.Name" xml:space="preserve">
+    <value>tsb_Stop</value>
+  </data>
+  <data name="&gt;&gt;panel_MiddleRight.Parent" xml:space="preserve">
+    <value>panel_Middle</value>
+  </data>
+  <data name="&gt;&gt;ANT18.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT11.Name" xml:space="preserve">
+    <value>clm_ANT11</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT8.Name" xml:space="preserve">
+    <value>clm_ANT8</value>
+  </data>
+  <data name="&gt;&gt;tsm_Main.Parent" xml:space="preserve">
+    <value>panel_Top</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="tsddm_tsmi_EMTemp.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="clm_ANT1.HeaderText" xml:space="preserve">
+    <value>ANT1</value>
+  </data>
+  <data name="tssl_CacheSize.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tsddm_tsmi_ANT18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Language_EN.Name" xml:space="preserve">
+    <value>tsmi_Language_EN</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT5.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;dgv_Tags.Parent" xml:space="preserve">
+    <value>panel_MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="clm_ANT2.HeaderText" xml:space="preserve">
+    <value>ANT2</value>
+  </data>
+  <data name="&gt;&gt;ANT18.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Language.Name" xml:space="preserve">
+    <value>tsmi_Language</value>
+  </data>
+  <data name="rb_gb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dgv_Tags.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tsddm_tsmi_ANT10.Text" xml:space="preserve">
+    <value>ANT10</value>
+  </data>
+  <data name="ANT3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="clm_ANT24.HeaderText" xml:space="preserve">
+    <value>ANT24</value>
+  </data>
+  <data name="&gt;&gt;tssl_TotalConnect.Name" xml:space="preserve">
+    <value>tssl_TotalConnect</value>
+  </data>
+  <data name="tsmi_AdvancedSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 22</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT21.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1500, 1500</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT11.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT11</value>
+  </data>
+  <data name="led_Time.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_TID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clm_ANT12.HeaderText" xml:space="preserve">
+    <value>ANT12</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 152</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 29</value>
+  </data>
+  <data name="btn_GPI_0.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tsb_ClearList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 42</value>
+  </data>
+  <data name="&gt;&gt;clm_EMTemp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmsForGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 92</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_3.Name" xml:space="preserve">
+    <value>btn_GPI_3</value>
+  </data>
+  <data name="&gt;&gt;ANT11.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tsb_Read_EPCTID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 42</value>
+  </data>
+  <data name="ANT17.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="clm_TagType.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;led_Tag_ReadCount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmsForGridView.Name" xml:space="preserve">
+    <value>cmsForGridView</value>
+  </data>
+  <data name="&gt;&gt;ANT23.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT21.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT21</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 150</value>
+  </data>
+  <data name="&gt;&gt;clm_EPC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT3.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ANT2.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="ANT13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 81</value>
+  </data>
+  <data name="&gt;&gt;panel_Middle.Name" xml:space="preserve">
+    <value>panel_Middle</value>
+  </data>
+  <data name="&gt;&gt;led_Speed.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_G2V2Challenge.Name" xml:space="preserve">
+    <value>tsddm_tsmi_G2V2Challenge</value>
+  </data>
+  <data name="tsddm_tsmi_EPC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;ANT7.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="clm_ANT16.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;tssl_TotalCountName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_0.Name" xml:space="preserve">
+    <value>btn_GPI_0</value>
+  </data>
+  <data name="clm_ANT13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tsmt_SNGet.Name" xml:space="preserve">
+    <value>tsmt_SNGet</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_0.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="tsddm_tsmi_ANT19.Text" xml:space="preserve">
+    <value>ANT19</value>
+  </data>
+  <data name="&gt;&gt;cms_tsmi_WriteUserData.Name" xml:space="preserve">
+    <value>cms_tsmi_WriteUserData</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
+    <value>menuStrip</value>
+  </data>
+  <data name="tsddm_tsmi_Phase.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_ANT18.HeaderText" xml:space="preserve">
+    <value>ANT18</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT2.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT2</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT7.Type" xml:space="preserve">
+    <value>SimpleReaderDemo.MyFormTemplet.QQCheckBox, SimpleReaderDemo, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="配置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="panel_MiddleCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 789</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT3.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT3</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT10.Name" xml:space="preserve">
+    <value>clm_ANT10</value>
+  </data>
+  <data name="ANT19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 103</value>
+  </data>
+  <data name="&gt;&gt;clm_RSSI.Name" xml:space="preserve">
+    <value>clm_RSSI</value>
+  </data>
+  <data name="tsddm_tsmi_ANT12.Text" xml:space="preserve">
+    <value>ANT12</value>
+  </data>
+  <data name="ANT17.Text" xml:space="preserve">
+    <value>天线17</value>
+  </data>
+  <data name="&gt;&gt;ANT8.Name" xml:space="preserve">
+    <value>ANT8</value>
+  </data>
+  <data name="ANT10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="tsddm_tsmi_ANT7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ANT14.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;cms_tsmi_ClearList.Name" xml:space="preserve">
+    <value>cms_tsmi_ClearList</value>
+  </data>
+  <data name="&gt;&gt;tsddb_SelectColumn.Name" xml:space="preserve">
+    <value>tsddb_SelectColumn</value>
+  </data>
+  <data name="clm_G2V2Data.HeaderText" xml:space="preserve">
+    <value>G2V2Data</value>
+  </data>
+  <data name="dgv_Tags.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tsb_Write_UserData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel_Debug.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 897</value>
+  </data>
+  <data name="ANT6.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT3.Text" xml:space="preserve">
+    <value>天线3</value>
+  </data>
+  <data name="ANT9.Text" xml:space="preserve">
+    <value>天线9</value>
+  </data>
+  <data name="ANT20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tsmi_Exit.Name" xml:space="preserve">
+    <value>tsmi_Exit</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_EMTemp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_TID.Text" xml:space="preserve">
+    <value>TID</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT7.Name" xml:space="preserve">
+    <value>ANT7</value>
+  </data>
+  <data name="gb_ReadType.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="tsmi_TCPServer.Text" xml:space="preserve">
+    <value>TCP服务器</value>
+  </data>
+  <data name="&gt;&gt;clm_ReserveData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsddm_tsmi_ANT4.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_Frequency.Name" xml:space="preserve">
+    <value>tsddm_tsmi_Frequency</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT17.Name" xml:space="preserve">
+    <value>clm_ANT17</value>
+  </data>
+  <data name="tsm_Main.Text" xml:space="preserve">
+    <value>工具栏</value>
+  </data>
+  <data name="tsmi_485Conn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ANT9.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="ANT5.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="clm_ANT7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rb_6b.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="&gt;&gt;ANT24.Name" xml:space="preserve">
+    <value>ANT24</value>
+  </data>
+  <data name="ANT11.Text" xml:space="preserve">
+    <value>天线11</value>
+  </data>
+  <data name="tsddm_tsmi_ANT3.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="clm_RSSI.HeaderText" xml:space="preserve">
+    <value>RSSI</value>
+  </data>
+  <data name="clm_ANT6.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="tsddm_tsmi_UserData.Text" xml:space="preserve">
+    <value>UserData</value>
+  </data>
+  <data name="clm_ANT10.HeaderText" xml:space="preserve">
+    <value>ANT10</value>
+  </data>
+  <data name="&gt;&gt;ANT16.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="&gt;&gt;uSB模式ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT21.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;gb_ReadControl.Name" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 304</value>
+  </data>
+  <data name="panel_MiddleRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
+    <value>panel_Top</value>
+  </data>
+  <data name="clm_TotalCount.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="rb_gb.Text" xml:space="preserve">
+    <value>GB 标签</value>
+  </data>
+  <data name="tsddm_tsmi_EMTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="ANT15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ANT12.Text" xml:space="preserve">
+    <value>天线12</value>
+  </data>
+  <data name="tsmi_ClearCacheTag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 22</value>
+  </data>
+  <data name="ANT2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel3.Name" xml:space="preserve">
+    <value>toolStripStatusLabel3</value>
+  </data>
+  <data name="&gt;&gt;gb_ReadControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ANT21.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="clm_ANT12.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="tsddm_tsmi_RFTemp.Text" xml:space="preserve">
+    <value>RFTemp</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="clm_ANT8.HeaderText" xml:space="preserve">
+    <value>ANT8</value>
+  </data>
+  <data name="&gt;&gt;clm_G2V2Challenge.Name" xml:space="preserve">
+    <value>clm_G2V2Challenge</value>
+  </data>
+  <data name="&gt;&gt;ANT20.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="tmsi_SerialConn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="ANT7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tsddm_tsmi_ANT19.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_TotalCount.Name" xml:space="preserve">
+    <value>clm_TotalCount</value>
+  </data>
+  <data name="&gt;&gt;panel_Top.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="panel_MiddleRight.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cms_tsmi_WriteEpc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="&gt;&gt;uSB模式ToolStripMenuItem.Name" xml:space="preserve">
+    <value>uSB模式ToolStripMenuItem</value>
+  </data>
+  <data name="gb_ReadType.Text" xml:space="preserve">
+    <value>读取方式：</value>
+  </data>
+  <data name="ANT5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panel_Debug.Name" xml:space="preserve">
+    <value>panel_Debug</value>
+  </data>
+  <data name="tsddm_tsmi_ReadTime.Text" xml:space="preserve">
+    <value>ReadTime</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 16</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;tsmi_GetBaseBandVersion.Name" xml:space="preserve">
+    <value>tsmi_GetBaseBandVersion</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT1.Name" xml:space="preserve">
+    <value>clm_ANT1</value>
+  </data>
+  <data name="&gt;&gt;ANT3.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="ANT18.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ANT10.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ANT7.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="tsmi_GetCacheTag.Text" xml:space="preserve">
+    <value>获取缓存数据</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_ANT19.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;ANT20.Name" xml:space="preserve">
+    <value>ANT20</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ANT8.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;led_Tag_Count.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;rb_Single.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rb_gb.Parent" xml:space="preserve">
+    <value>gb_TagType</value>
+  </data>
+  <data name="btn_GPI_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 183</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_RSSI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_ANT14.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="tsmi_Language_EN.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="clm_ReaderName.HeaderText" xml:space="preserve">
+    <value>Reader</value>
+  </data>
+  <data name="&gt;&gt;clm_Frequency.Name" xml:space="preserve">
+    <value>clm_Frequency</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_MiddleRight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tsmi_ClearCacheTag.Text" xml:space="preserve">
+    <value>清除缓存数据</value>
+  </data>
+  <data name="tsmi_GetReaderMsg.Text" xml:space="preserve">
+    <value>读写器信息</value>
+  </data>
+  <data name="tsb_Stop.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;ANT3.Name" xml:space="preserve">
+    <value>ANT3</value>
+  </data>
+  <data name="tssl_TotalConnect.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_EPC.Name" xml:space="preserve">
+    <value>tsddm_tsmi_EPC</value>
+  </data>
+  <data name="&gt;&gt;tsmi_TCPServer.Name" xml:space="preserve">
+    <value>tsmi_TCPServer</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 353</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT17.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT17</value>
+  </data>
+  <data name="ANT4.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="cms_tsmi_Copy.Text" xml:space="preserve">
+    <value>复制单元格</value>
+  </data>
+  <data name="tsddm_tsmi_EPCData.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tsmi_GetCacheTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ANT16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 81</value>
+  </data>
+  <data name="btn_GPI_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 27</value>
+  </data>
+  <data name="ANT10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 59</value>
+  </data>
+  <data name="tsb_Read_Epc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 42</value>
+  </data>
+  <data name="&gt;&gt;panel_Debug.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clm_TID.Name" xml:space="preserve">
+    <value>clm_TID</value>
+  </data>
+  <data name="gb_ReadControl.Text" xml:space="preserve">
+    <value>读写控制：</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="clm_RFTemp.HeaderText" xml:space="preserve">
+    <value>RFTemp</value>
+  </data>
+  <data name="ANT15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tsddm_tsmi_ANT14.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_G2V2Data.Name" xml:space="preserve">
+    <value>tsddm_tsmi_G2V2Data</value>
+  </data>
+  <data name="rb_6b.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;tssl_TotalCountName.Name" xml:space="preserve">
+    <value>tssl_TotalCountName</value>
+  </data>
+  <data name="tsddb_SelectColumn.Text" xml:space="preserve">
+    <value>选择列</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT14.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT14</value>
+  </data>
+  <data name="btn_GPI_1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="led_Speed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 100</value>
+  </data>
+  <data name="ANT8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ReserveData.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ReserveData</value>
+  </data>
+  <data name="ANT10.Text" xml:space="preserve">
+    <value>天线10</value>
+  </data>
+  <data name="toolStripStatusLabel3.Text" xml:space="preserve">
+    <value>缓存容量：</value>
+  </data>
+  <data name="btn_GPI_2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="led_Speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 32</value>
+  </data>
+  <data name="tsb_Stop.Text" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="tsddm_tsmi_RFTemp.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tsmi_Connect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="ANT24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ANT14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 81</value>
+  </data>
+  <data name="lb_ReceiveCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 68</value>
+  </data>
+  <data name="&gt;&gt;btn_GPI_3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>楷体, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;clm_ReaderName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ANT9.Parent" xml:space="preserve">
+    <value>gb_ReadControl</value>
+  </data>
+  <data name="btn_GPI_0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 27</value>
+  </data>
+  <data name="cms_tsmi_WriteUserData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="&gt;&gt;tb_DebugMsg.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tsb_Write_UserData.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;clm_ANT12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clm_ANT3.HeaderText" xml:space="preserve">
+    <value>ANT3</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_ANT24.Name" xml:space="preserve">
+    <value>tsddm_tsmi_ANT24</value>
+  </data>
+  <data name="ANT8.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="panel_Middle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 108</value>
+  </data>
+  <data name="&gt;&gt;panel_Middle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="clm_ANT14.HeaderText" xml:space="preserve">
+    <value>ANT14</value>
+  </data>
+  <data name="panel_Debug.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cms_tsmi_WriteEpc.Text" xml:space="preserve">
+    <value>写EPC</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsddm_tsmi_G2V2Challenge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ANT18.Text" xml:space="preserve">
+    <value>天线18</value>
+  </data>
+  <data name="&gt;&gt;rb_While.Name" xml:space="preserve">
+    <value>rb_While</value>
+  </data>
+  <data name="ANT21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ANT21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 125</value>
+  </data>
+  <data name="dgv_Tags.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 789</value>
+  </data>
+  <data name="tsddm_tsmi_UserData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel4.Name" xml:space="preserve">
+    <value>toolStripStatusLabel4</value>
+  </data>
+  <data name="ANT6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 37</value>
+  </data>
+  <data name="tsb_ResetReader.Text" xml:space="preserve">
+    <value>重启读写器</value>
+  </data>
+  <data name="&gt;&gt;ANT22.Name" xml:space="preserve">
+    <value>ANT22</value>
+  </data>
+  <data name="tsddm_tsmi_ReserveData.Text" xml:space="preserve">
+    <value>ReserveData</value>
+  </data>
+  <metadata name="pc_Processor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>472, 18</value>
+  </metadata>
+  <metadata name="clm_TotalCount.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ReaderName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>220, 20</value>
+  </metadata>
+  <metadata name="clm_ANT4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="clm_G2V2Challenge.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_EPCData.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT21.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT19.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_Frequency.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT17.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_TagType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_EPC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tsm_Main.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>125, 18</value>
+  </metadata>
+  <metadata name="clm_RSSI.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT23.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT20.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT15.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_TID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_UserData.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>54</value>
+  </metadata>
+  <metadata name="cmsForGridView.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>324, 18</value>
+  </metadata>
+  <metadata name="clm_ANT8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>22, 17</value>
+  </metadata>
+  <metadata name="clm_ANT5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_G2V2Data.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT18.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT14.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_Phase.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ReadTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT16.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT13.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_EMTemp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ReserveData.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_RFTemp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT22.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clm_ANT24.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
