@@ -26,7 +26,7 @@ namespace ALMACENRFID.Helper
 
         #endregion
 
-        #region 方法
+        #region "xx"
         /// <summary>
         /// Load the Xml file through the file address and get the XmlDocument object
         /// </summary>
